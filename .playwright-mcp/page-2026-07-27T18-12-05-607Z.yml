@@ -1,0 +1,47 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e2]:
+    - banner [ref=f10e3]:
+      - generic [ref=f10e7]:
+        - generic [ref=f10e8]: Control de Estacionamiento
+        - generic [ref=f10e9]:
+          - generic [ref=f10e11]: "En turno:"
+          - generic [ref=f10e12]: —
+          - button "Cambiar" [ref=f10e13] [cursor=pointer]
+      - generic [ref=f10e14]: "--:--:--"
+    - generic [ref=f10e17]:
+      - navigation [ref=f10e18]:
+        - button "01 Registrar" [ref=f10e19] [cursor=pointer]:
+          - generic [ref=f10e20]: "01"
+          - generic [ref=f10e21]: Registrar
+        - button "02 Dentro" [ref=f10e22] [cursor=pointer]:
+          - generic [ref=f10e23]: "02"
+          - generic [ref=f10e24]: Dentro
+        - button "03 Historial" [ref=f10e25] [cursor=pointer]:
+          - generic [ref=f10e26]: "03"
+          - generic [ref=f10e27]: Historial
+        - button "04 Usuarios" [ref=f10e28] [cursor=pointer]:
+          - generic [ref=f10e29]: "04"
+          - generic [ref=f10e30]: Usuarios
+      - main [ref=f10e31]:
+        - generic [ref=f10e33]:
+          - generic [ref=f10e34]:
+            - button "Entrada" [ref=f10e35] [cursor=pointer]
+            - button "Salida" [ref=f10e36] [cursor=pointer]
+          - generic [ref=f10e37]:
+            - generic [ref=f10e38]:
+              - generic [ref=f10e39]: Placa
+              - textbox "ABC-123" [ref=f10e41]
+            - generic [ref=f10e42]:
+              - generic [ref=f10e43]: Tipo de vehículo
+              - generic [ref=f10e45]:
+                - button "A Auto" [ref=f10e46] [cursor=pointer]:
+                  - generic [ref=f10e47]: A
+                  - generic [ref=f10e48]: Auto
+                - button "M Moto" [ref=f10e49] [cursor=pointer]:
+                  - generic [ref=f10e50]: M
+                  - generic [ref=f10e51]: Moto
+            - generic [ref=f10e52]:
+              - generic [ref=f10e53]: Foto (opcional)
+              - generic [ref=f10e55] [cursor=pointer]: Arrastra una foto del vehículo
+            - button "Registrar entrada" [disabled] [ref=f10e57]
+  - button "Open Next.js Dev Tools" [ref=f10e63] [cursor=pointer]

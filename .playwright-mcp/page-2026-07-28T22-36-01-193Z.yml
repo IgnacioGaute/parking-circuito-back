@@ -1,0 +1,25 @@
+- generic [active] [ref=f20e1]:
+  - generic [ref=f20e5]:
+    - generic [ref=f20e9]:
+      - generic [ref=f20e10]: Control deEstacionamiento
+      - generic [ref=f20e11]: Acceso de operador
+    - generic [ref=f20e37]:
+      - button "← Cambiar turno" [ref=f20e38] [cursor=pointer]
+      - generic [ref=f20e39]:
+        - generic [ref=f20e40]: CR
+        - generic [ref=f20e41]: Carlos Ruiz
+      - generic [ref=f20e42]: "PIN de prueba: 1234"
+      - generic [ref=f20e49]:
+        - button "1" [ref=f20e50] [cursor=pointer]
+        - button "2" [ref=f20e51] [cursor=pointer]
+        - button "3" [ref=f20e52] [cursor=pointer]
+        - button "4" [ref=f20e53] [cursor=pointer]
+        - button "5" [ref=f20e54] [cursor=pointer]
+        - button "6" [ref=f20e55] [cursor=pointer]
+        - button "7" [ref=f20e56] [cursor=pointer]
+        - button "8" [ref=f20e57] [cursor=pointer]
+        - button "9" [ref=f20e58] [cursor=pointer]
+        - button "0" [ref=f20e59] [cursor=pointer]
+        - button "⌫" [ref=f20e60] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f20e22] [cursor=pointer]
+  - alert [ref=f20e36]

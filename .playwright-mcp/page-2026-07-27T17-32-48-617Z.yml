@@ -1,0 +1,25 @@
+- generic [ref=f5e1]:
+  - button "Open Next.js Dev Tools" [ref=f5e66] [cursor=pointer]
+  - alert [ref=f5e70]
+  - generic [ref=f5e329]:
+    - generic [ref=f5e333]:
+      - generic [ref=f5e334]: Control deEstacionamiento
+      - generic [ref=f5e335]: Acceso de operador
+    - generic [ref=f5e350]:
+      - button "← Cambiar turno" [ref=f5e351] [cursor=pointer]
+      - generic [ref=f5e352]:
+        - generic [ref=f5e353]: AT
+        - generic [ref=f5e354]: Ana Torres
+      - generic [ref=f5e355]: "PIN de prueba: 1234"
+      - generic [ref=f5e362]:
+        - button "1" [ref=f5e363] [cursor=pointer]
+        - button "2" [active] [ref=f5e364] [cursor=pointer]
+        - button "3" [ref=f5e365] [cursor=pointer]
+        - button "4" [ref=f5e366] [cursor=pointer]
+        - button "5" [ref=f5e367] [cursor=pointer]
+        - button "6" [ref=f5e368] [cursor=pointer]
+        - button "7" [ref=f5e369] [cursor=pointer]
+        - button "8" [ref=f5e370] [cursor=pointer]
+        - button "9" [ref=f5e371] [cursor=pointer]
+        - button "0" [ref=f5e372] [cursor=pointer]
+        - button "⌫" [ref=f5e373] [cursor=pointer]

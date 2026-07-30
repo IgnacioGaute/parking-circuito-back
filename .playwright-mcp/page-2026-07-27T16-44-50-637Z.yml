@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e9]:
+      - generic [ref=e10]: Control deEstacionamiento
+      - generic [ref=e11]: Acceso de operador
+    - generic [ref=e61]:
+      - generic [ref=e64]:
+        - generic [ref=e65]: Turno iniciado
+        - generic [ref=e66]: Carlos Ruiz · acceso concedido
+      - link "Continuar →" [ref=e67] [cursor=pointer]:
+        - /url: /
+  - button "Open Next.js Dev Tools" [ref=e33] [cursor=pointer]
+  - alert [ref=e17]

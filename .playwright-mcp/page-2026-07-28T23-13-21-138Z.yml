@@ -1,0 +1,60 @@
+- generic [ref=f22e1]:
+  - button "Open Next.js Dev Tools" [ref=f22e22] [cursor=pointer]
+  - alert [ref=f22e39]
+  - generic [ref=f22e71]:
+    - banner [ref=f22e72]:
+      - generic [ref=f22e76]:
+        - generic [ref=f22e77]: Control de Estacionamiento
+        - generic [ref=f22e78]:
+          - generic [ref=f22e80]: "En turno:"
+          - generic [ref=f22e81]: Carlos Ruiz
+          - button "Cambiar" [ref=f22e82] [cursor=pointer]
+      - generic [ref=f22e83]:
+        - generic [ref=f22e84]: 20:13:20
+        - generic [ref=f22e85]: martes, 28 de julio
+    - generic [ref=f22e87]:
+      - navigation [ref=f22e88]:
+        - button "01 Registrar" [ref=f22e89] [cursor=pointer]:
+          - generic [ref=f22e90]: "01"
+          - generic [ref=f22e91]: Registrar
+        - button "02 Dentro 5" [ref=f22e92] [cursor=pointer]:
+          - generic [ref=f22e93]: "02"
+          - generic [ref=f22e94]: Dentro
+          - generic [ref=f22e95]: "5"
+        - button "03 Historial" [ref=f22e96] [cursor=pointer]:
+          - generic [ref=f22e97]: "03"
+          - generic [ref=f22e98]: Historial
+        - button "04 Usuarios" [active] [ref=f22e99] [cursor=pointer]:
+          - generic [ref=f22e100]: "04"
+          - generic [ref=f22e101]: Usuarios
+        - button "05 Admin" [ref=f22e102] [cursor=pointer]:
+          - generic [ref=f22e103]: "05"
+          - generic [ref=f22e104]: Admin
+      - main [ref=f22e105]:
+        - generic [ref=f22e136]:
+          - generic [ref=f22e137]: Registro de operadores
+          - generic [ref=f22e138]:
+            - generic [ref=f22e139]:
+              - generic [ref=f22e140]: AT
+              - generic [ref=f22e141]:
+                - generic [ref=f22e142]: Ana Torres
+                - generic [ref=f22e143]: Operador
+              - generic [ref=f22e144]: Fuera de turno
+            - generic [ref=f22e146]:
+              - generic [ref=f22e147]: CR
+              - generic [ref=f22e148]:
+                - generic [ref=f22e149]: Carlos Ruiz
+                - generic [ref=f22e150]: Operador
+              - generic [ref=f22e151]: En turno
+            - generic [ref=f22e153]:
+              - generic [ref=f22e154]: LM
+              - generic [ref=f22e155]:
+                - generic [ref=f22e156]: Luis Medina
+                - generic [ref=f22e157]: Operador
+              - generic [ref=f22e158]: Fuera de turno
+            - generic [ref=f22e160]:
+              - generic [ref=f22e161]: I
+              - generic [ref=f22e162]:
+                - generic [ref=f22e163]: ignacio
+                - generic [ref=f22e164]: Operador
+              - generic [ref=f22e165]: Fuera de turno

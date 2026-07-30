@@ -1,0 +1,97 @@
+- generic [ref=f16e1]:
+  - generic [ref=f16e2]:
+    - banner [ref=f16e3]:
+      - generic [ref=f16e7]:
+        - generic [ref=f16e8]: Control de Estacionamiento
+        - generic [ref=f16e9]:
+          - generic [ref=f16e11]: "En turno:"
+          - generic [ref=f16e12]: Carlos Ruiz
+          - button "Cambiar" [ref=f16e13] [cursor=pointer]
+      - generic [ref=f16e14]:
+        - generic [ref=f16e15]: 15:43:04
+        - generic [ref=f16e67]: lunes, 27 de julio
+    - generic [ref=f16e17]:
+      - navigation [ref=f16e18]:
+        - button "01 Registrar" [ref=f16e19] [cursor=pointer]:
+          - generic [ref=f16e20]: "01"
+          - generic [ref=f16e21]: Registrar
+        - button "02 Dentro 4" [ref=f16e68] [cursor=pointer]:
+          - generic [ref=f16e23]: "02"
+          - generic [ref=f16e24]: Dentro
+          - generic [ref=f16e69]: "4"
+        - button "03 Historial" [ref=f16e25] [cursor=pointer]:
+          - generic [ref=f16e26]: "03"
+          - generic [ref=f16e27]: Historial
+        - button "04 Usuarios" [ref=f16e28] [cursor=pointer]:
+          - generic [ref=f16e29]: "04"
+          - generic [ref=f16e30]: Usuarios
+        - button "05 Admin" [ref=f16e70] [cursor=pointer]:
+          - generic [ref=f16e71]: "05"
+          - generic [ref=f16e72]: Admin
+      - main [ref=f16e31]:
+        - generic [ref=f16e98]:
+          - generic [ref=f16e99]:
+            - button "Operadores" [ref=f16e100] [cursor=pointer]
+            - button "Campos de registro" [active] [ref=f16e101] [cursor=pointer]
+          - generic [ref=f16e132]:
+            - generic [ref=f16e133]:
+              - generic [ref=f16e134]: Formulario de registrar entrada
+              - generic [ref=f16e135]: Arrastrá cualquier campo para reordenarlo. Los fijos (placa, tipo, foto) no se pueden eliminar, pero sí mover de lugar.
+            - generic [ref=f16e136]:
+              - generic [ref=f16e137]:
+                - generic [ref=f16e138]: 🔒
+                - generic [ref=f16e139]:
+                  - generic [ref=f16e140]: Placa
+                  - generic [ref=f16e141]: Texto libre
+                - generic [ref=f16e142]: Fijo
+              - generic [ref=f16e143]:
+                - generic [ref=f16e144]: 🔒
+                - generic [ref=f16e145]:
+                  - generic [ref=f16e146]: Tipo de vehículo
+                  - generic [ref=f16e147]: Auto / Moto
+                - generic [ref=f16e148]: Fijo
+              - generic [ref=f16e149]:
+                - generic [ref=f16e150]: 🔒
+                - generic [ref=f16e151]:
+                  - generic [ref=f16e152]: Foto
+                  - generic [ref=f16e153]: Imagen (opcional)
+                - generic [ref=f16e154]: Fijo
+              - generic [ref=f16e155]:
+                - generic [ref=f16e156]: ⠿
+                - generic [ref=f16e157]:
+                  - generic [ref=f16e158]: Campo 1
+                  - generic [ref=f16e159]: campo_1 · Texto
+                - button "Eliminar" [ref=f16e160] [cursor=pointer]
+              - generic [ref=f16e161]:
+                - generic [ref=f16e162]: ⠿
+                - generic [ref=f16e163]:
+                  - generic [ref=f16e164]: Campo 2
+                  - generic [ref=f16e165]: campo_2 · Texto
+                - button "Eliminar" [ref=f16e166] [cursor=pointer]
+              - generic [ref=f16e167]:
+                - generic [ref=f16e168]: ⠿
+                - generic [ref=f16e169]:
+                  - generic [ref=f16e170]: Campo 3
+                  - generic [ref=f16e171]: campo_3 · Texto
+                - button "Eliminar" [ref=f16e172] [cursor=pointer]
+              - generic [ref=f16e173]:
+                - generic [ref=f16e174]: ⠿
+                - generic [ref=f16e175]:
+                  - generic [ref=f16e176]: Campo 4
+                  - generic [ref=f16e177]: campo_4 · Texto
+                - button "Eliminar" [ref=f16e178] [cursor=pointer]
+              - generic [ref=f16e179]:
+                - generic [ref=f16e180]: ⠿
+                - generic [ref=f16e181]:
+                  - generic [ref=f16e182]: Campo 5
+                  - generic [ref=f16e183]: campo_5 · Texto
+                - button "Eliminar" [ref=f16e184] [cursor=pointer]
+              - generic [ref=f16e185]:
+                - generic [ref=f16e186]: ⠿
+                - generic [ref=f16e187]:
+                  - generic [ref=f16e188]: Campo 6
+                  - generic [ref=f16e189]: campo_6 · Texto
+                - button "Eliminar" [ref=f16e190] [cursor=pointer]
+              - button "+ Agregar campo" [ref=f16e191] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f16e63] [cursor=pointer]
+  - alert [ref=f16e97]

@@ -1,0 +1,45 @@
+- generic [active] [ref=f57e1]:
+  - generic [ref=f57e2]:
+    - banner [ref=f57e3]:
+      - generic [ref=f57e4]:
+        - generic [ref=f57e5]: Control de Estacionamiento
+        - generic [ref=f57e9]:
+          - generic [ref=f57e10]:
+            - generic [ref=f57e11]: 16:16:44
+            - generic [ref=f57e103]: jue, 30 jul
+          - button "Cambiar a tema claro" [ref=f57e12] [cursor=pointer]
+      - generic [ref=f57e19]:
+        - generic [ref=f57e20]:
+          - generic [ref=f57e22]: En turno
+          - generic [ref=f57e23]: ignacio
+        - button "Cambiar turno" [ref=f57e24] [cursor=pointer]
+    - generic [ref=f57e28]:
+      - navigation [ref=f57e29]:
+        - button "Registrar" [ref=f57e30] [cursor=pointer]
+        - button "Dentro 1" [ref=f57e104] [cursor=pointer]:
+          - generic [ref=f57e41]: Dentro
+          - generic [ref=f57e105]: "1"
+        - button "Historial" [ref=f57e42] [cursor=pointer]
+        - button "Usuarios" [ref=f57e48] [cursor=pointer]
+        - button "Admin" [ref=f57e106] [cursor=pointer]
+      - main [ref=f57e55]:
+        - generic [ref=f57e57]:
+          - generic [ref=f57e58]:
+            - button "Entrada" [ref=f57e59] [cursor=pointer]
+            - button "Salida" [ref=f57e60] [cursor=pointer]
+          - generic [ref=f57e116]:
+            - generic [ref=f57e135]:
+              - generic [ref=f57e136]: WERWE
+              - generic [ref=f57e137]: Auto · entró 15:36
+            - generic [ref=f57e119]:
+              - generic [ref=f57e138]:
+                - generic [ref=f57e139]: Tiempo dentro
+                - generic [ref=f57e140]: 41m
+              - generic [ref=f57e141]:
+                - generic [ref=f57e142]: Registrado por
+                - generic [ref=f57e143]: ignacio
+            - generic [ref=f57e144]:
+              - button "Cancelar" [ref=f57e145] [cursor=pointer]
+              - button "Confirmar salida" [ref=f57e146] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f57e99] [cursor=pointer]
+  - alert [ref=f57e115]

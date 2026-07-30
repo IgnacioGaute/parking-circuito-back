@@ -1,0 +1,12 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e5]:
+    - generic [ref=f5e9]:
+      - generic [ref=f5e10]: Control deEstacionamiento
+      - generic [ref=f5e11]: Acceso de operador
+    - generic [ref=f5e14]:
+      - generic [ref=f5e15]: Instalá la app en tu celular
+      - paragraph [ref=f5e16]: Tocá el botón y confirmá la instalación. Va a quedar un ícono en la pantalla de inicio, igual que cualquier otra app.
+    - generic [ref=f5e17] [cursor=pointer]: Cargando…
+    - link "¿Ya la instalaste? Ingresar →" [ref=f5e18] [cursor=pointer]:
+      - /url: /login
+  - button "Open Next.js Dev Tools" [ref=f5e24] [cursor=pointer]

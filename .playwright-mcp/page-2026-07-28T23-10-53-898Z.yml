@@ -1,0 +1,13 @@
+- generic [active] [ref=f22e1]:
+  - generic [ref=f22e5]:
+    - generic [ref=f22e9]:
+      - generic [ref=f22e10]: Control deEstacionamiento
+      - generic [ref=f22e11]: Acceso de operador
+    - generic [ref=f22e64]:
+      - generic [ref=f22e67]:
+        - generic [ref=f22e68]: Turno iniciado
+        - generic [ref=f22e69]: Carlos Ruiz · acceso concedido
+      - link "Continuar →" [ref=f22e70] [cursor=pointer]:
+        - /url: /
+  - button "Open Next.js Dev Tools" [ref=f22e22] [cursor=pointer]
+  - alert [ref=f22e39]

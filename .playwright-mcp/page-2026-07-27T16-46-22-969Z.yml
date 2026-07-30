@@ -1,0 +1,48 @@
+- generic [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e33] [cursor=pointer]
+  - alert [ref=e17]
+  - generic [ref=e68]:
+    - banner [ref=e69]:
+      - generic [ref=e73]:
+        - generic [ref=e74]: Control de Estacionamiento
+        - generic [ref=e75]:
+          - generic [ref=e77]: "En turno:"
+          - generic [ref=e78]: Carlos Ruiz
+          - button "Cambiar" [ref=e79] [cursor=pointer]
+      - generic [ref=e80]:
+        - generic [ref=e81]: 13:46:22
+        - generic [ref=e82]: lunes, 27 de julio
+    - generic [ref=e84]:
+      - navigation [ref=e85]:
+        - button "01 Registrar" [ref=e86] [cursor=pointer]:
+          - generic [ref=e87]: "01"
+          - generic [ref=e88]: Registrar
+        - button "02 Dentro 1" [active] [ref=e125] [cursor=pointer]:
+          - generic [ref=e90]: "02"
+          - generic [ref=e91]: Dentro
+          - generic [ref=e126]: "1"
+        - button "03 Historial" [ref=e92] [cursor=pointer]:
+          - generic [ref=e93]: "03"
+          - generic [ref=e94]: Historial
+        - button "04 Usuarios" [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: "04"
+          - generic [ref=e97]: Usuarios
+      - main [ref=e98]:
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - generic [ref=e130]: Vehículos dentro
+            - generic [ref=e131]: "1"
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: A
+              - generic [ref=e136]:
+                - generic [ref=e137]: TST-001
+                - generic [ref=e138]: Auto · Carlos Ruiz
+            - generic [ref=e139]:
+              - generic [ref=e140]:
+                - generic [ref=e141]: Entrada
+                - generic [ref=e142]: 13:46
+              - generic [ref=e143]:
+                - generic [ref=e144]: Tiempo
+                - generic [ref=e145]: 0m
+            - button "Registrar salida" [ref=e146] [cursor=pointer]

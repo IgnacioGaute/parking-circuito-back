@@ -1,0 +1,11 @@
+- generic [ref=f26e1]:
+  - generic [ref=f26e2]:
+    - button "Cambiar a tema claro" [ref=f26e3] [cursor=pointer]
+    - generic [ref=f26e12]:
+      - generic [ref=f26e16]:
+        - generic [ref=f26e17]: Control deEstacionamiento
+        - generic [ref=f26e18]: Acceso de operador
+      - generic [ref=f26e21]:
+        - generic [ref=f26e22]: Selecciona tu turno
+        - generic [ref=f26e23]: Cargando operadores…
+  - button "Open Next.js Dev Tools" [ref=f26e29] [cursor=pointer]

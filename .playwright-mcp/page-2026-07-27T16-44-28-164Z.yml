@@ -1,0 +1,25 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e9]:
+      - generic [ref=e10]: Control deEstacionamiento
+      - generic [ref=e11]: Acceso de operador
+    - generic [ref=e37]:
+      - button "← Cambiar turno" [ref=e38] [cursor=pointer]
+      - generic [ref=e39]:
+        - generic [ref=e40]: CR
+        - generic [ref=e41]: Carlos Ruiz
+      - generic [ref=e42]: "PIN de prueba: 1234"
+      - generic [ref=e49]:
+        - button "1" [active] [ref=e50] [cursor=pointer]
+        - button "2" [ref=e51] [cursor=pointer]
+        - button "3" [ref=e52] [cursor=pointer]
+        - button "4" [ref=e53] [cursor=pointer]
+        - button "5" [ref=e54] [cursor=pointer]
+        - button "6" [ref=e55] [cursor=pointer]
+        - button "7" [ref=e56] [cursor=pointer]
+        - button "8" [ref=e57] [cursor=pointer]
+        - button "9" [ref=e58] [cursor=pointer]
+        - button "0" [ref=e59] [cursor=pointer]
+        - button "⌫" [ref=e60] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e33] [cursor=pointer]
+  - alert [ref=e17]

@@ -1,0 +1,52 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner [ref=f1e3]:
+      - generic [ref=f1e7]:
+        - generic [ref=f1e8]: Control de Estacionamiento
+        - generic [ref=f1e9]:
+          - generic [ref=f1e11]: "En turno:"
+          - generic [ref=f1e12]: Carlos Ruiz
+          - button "Cambiar" [ref=f1e13] [cursor=pointer]
+      - generic [ref=f1e14]:
+        - generic [ref=f1e15]: 13:49:16
+        - generic [ref=f1e67]: lunes, 27 de julio
+    - generic [ref=f1e17]:
+      - navigation [ref=f1e18]:
+        - button "01 Registrar" [ref=f1e19] [cursor=pointer]:
+          - generic [ref=f1e20]: "01"
+          - generic [ref=f1e21]: Registrar
+        - button "02 Dentro 1" [ref=f1e173] [cursor=pointer]:
+          - generic [ref=f1e23]: "02"
+          - generic [ref=f1e24]: Dentro
+          - generic [ref=f1e174]: "1"
+        - button "03 Historial" [ref=f1e25] [cursor=pointer]:
+          - generic [ref=f1e26]: "03"
+          - generic [ref=f1e27]: Historial
+        - button "04 Usuarios" [ref=f1e28] [cursor=pointer]:
+          - generic [ref=f1e29]: "04"
+          - generic [ref=f1e30]: Usuarios
+      - main [ref=f1e31]:
+        - generic [ref=f1e148]:
+          - generic [ref=f1e149]:
+            - button "Entrada" [ref=f1e150] [cursor=pointer]
+            - button "Salida" [ref=f1e151] [cursor=pointer]
+          - generic [ref=f1e152]:
+            - generic [ref=f1e153]:
+              - generic [ref=f1e154]: Placa
+              - textbox "ABC-123" [ref=f1e156]
+            - generic [ref=f1e157]:
+              - generic [ref=f1e158]: Tipo de vehículo
+              - generic [ref=f1e160]:
+                - button "A Auto" [ref=f1e161] [cursor=pointer]:
+                  - generic [ref=f1e162]: A
+                  - generic [ref=f1e163]: Auto
+                - button "M Moto" [ref=f1e164] [cursor=pointer]:
+                  - generic [ref=f1e165]: M
+                  - generic [ref=f1e166]: Moto
+            - generic [ref=f1e167]:
+              - generic [ref=f1e168]: Foto (opcional)
+              - generic [ref=f1e170] [cursor=pointer]: Arrastra una foto del vehículo
+            - button "Registrar entrada" [disabled] [ref=f1e172]
+    - generic [ref=f1e175]: "Entrada registrada: SLD-777"
+  - button "Open Next.js Dev Tools" [ref=f1e63] [cursor=pointer]
+  - alert [ref=f1e68]

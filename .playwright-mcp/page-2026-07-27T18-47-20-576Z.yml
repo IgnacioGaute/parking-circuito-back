@@ -1,0 +1,61 @@
+- generic [ref=f17e1]:
+  - generic [ref=f17e2]:
+    - banner [ref=f17e3]:
+      - generic [ref=f17e7]:
+        - generic [ref=f17e8]: Control de Estacionamiento
+        - generic [ref=f17e9]:
+          - generic [ref=f17e11]: "En turno:"
+          - generic [ref=f17e12]: Carlos Ruiz
+          - button "Cambiar" [ref=f17e13] [cursor=pointer]
+      - generic [ref=f17e14]:
+        - generic [ref=f17e15]: 15:47:20
+        - generic [ref=f17e67]: lunes, 27 de julio
+    - generic [ref=f17e17]:
+      - navigation [ref=f17e18]:
+        - button "01 Registrar" [active] [ref=f17e19] [cursor=pointer]:
+          - generic [ref=f17e20]: "01"
+          - generic [ref=f17e21]: Registrar
+        - button "02 Dentro 4" [ref=f17e68] [cursor=pointer]:
+          - generic [ref=f17e23]: "02"
+          - generic [ref=f17e24]: Dentro
+          - generic [ref=f17e69]: "4"
+        - button "03 Historial" [ref=f17e25] [cursor=pointer]:
+          - generic [ref=f17e26]: "03"
+          - generic [ref=f17e27]: Historial
+        - button "04 Usuarios" [ref=f17e28] [cursor=pointer]:
+          - generic [ref=f17e29]: "04"
+          - generic [ref=f17e30]: Usuarios
+        - button "05 Admin" [ref=f17e70] [cursor=pointer]:
+          - generic [ref=f17e71]: "05"
+          - generic [ref=f17e72]: Admin
+      - main [ref=f17e31]:
+        - generic [ref=f17e152]:
+          - generic [ref=f17e153]:
+            - button "Entrada" [ref=f17e154] [cursor=pointer]
+            - button "Salida" [ref=f17e155] [cursor=pointer]
+          - generic [ref=f17e156]:
+            - generic [ref=f17e157]:
+              - generic [ref=f17e158]: Color
+              - combobox [ref=f17e160] [cursor=pointer]:
+                - option "Seleccioná una opción"
+                - option "Rojo" [selected]
+                - option "Verde"
+                - option "Azul"
+            - generic [ref=f17e161]:
+              - generic [ref=f17e162]: Placa
+              - textbox "ABC-123" [ref=f17e164]
+            - generic [ref=f17e165]:
+              - generic [ref=f17e166]: Tipo de vehículo
+              - generic [ref=f17e168]:
+                - button "A Auto" [ref=f17e169] [cursor=pointer]:
+                  - generic [ref=f17e170]: A
+                  - generic [ref=f17e171]: Auto
+                - button "M Moto" [ref=f17e172] [cursor=pointer]:
+                  - generic [ref=f17e173]: M
+                  - generic [ref=f17e174]: Moto
+            - generic [ref=f17e175]:
+              - generic [ref=f17e176]: Foto (opcional)
+              - generic [ref=f17e178] [cursor=pointer]: Arrastra una foto del vehículo
+            - button "Registrar entrada" [disabled] [ref=f17e180]
+  - button "Open Next.js Dev Tools" [ref=f17e63] [cursor=pointer]
+  - alert [ref=f17e73]

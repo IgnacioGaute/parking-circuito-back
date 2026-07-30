@@ -1,0 +1,43 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e32] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e33]
+    - generic [ref=e147]:
+      - button "Open issues overlay" [ref=e148]:
+        - generic [ref=e149]:
+          - generic [ref=e150]: "0"
+          - generic [ref=e151]: "1"
+        - generic [ref=e152]: Issue
+      - button "Collapse issues badge" [ref=e153]
+  - alert [ref=e17]
+  - generic [ref=e68]:
+    - banner [ref=e69]:
+      - generic [ref=e73]:
+        - generic [ref=e74]: Control de Estacionamiento
+        - generic [ref=e75]:
+          - generic [ref=e77]: "En turno:"
+          - generic [ref=e78]: Carlos Ruiz
+          - button "Cambiar" [ref=e79] [cursor=pointer]
+      - generic [ref=e80]:
+        - generic [ref=e81]: 13:46:43
+        - generic [ref=e82]: lunes, 27 de julio
+    - generic [ref=e84]:
+      - navigation [ref=e85]:
+        - button "01 Registrar" [ref=e86] [cursor=pointer]:
+          - generic [ref=e87]: "01"
+          - generic [ref=e88]: Registrar
+        - button "02 Dentro" [ref=e156] [cursor=pointer]:
+          - generic [ref=e90]: "02"
+          - generic [ref=e91]: Dentro
+        - button "03 Historial" [ref=e92] [cursor=pointer]:
+          - generic [ref=e93]: "03"
+          - generic [ref=e94]: Historial
+        - button "04 Usuarios" [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: "04"
+          - generic [ref=e97]: Usuarios
+      - main [ref=e98]:
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - generic [ref=e130]: Vehículos dentro
+            - generic [ref=e131]: "0"
+          - generic [ref=e157]: No hay vehículos dentro del estacionamiento.
+    - generic [ref=e158]: "Salida registrada: TST-001"

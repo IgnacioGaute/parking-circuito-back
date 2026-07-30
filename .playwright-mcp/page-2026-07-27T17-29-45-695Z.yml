@@ -1,0 +1,57 @@
+- generic [ref=f5e1]:
+  - button "Open Next.js Dev Tools" [ref=f5e66] [cursor=pointer]
+  - alert [ref=f5e70]
+  - generic [ref=f5e126]:
+    - banner [ref=f5e127]:
+      - generic [ref=f5e131]:
+        - generic [ref=f5e132]: Control de Estacionamiento
+        - generic [ref=f5e133]:
+          - generic [ref=f5e135]: "En turno:"
+          - generic [ref=f5e136]: Carlos Ruiz
+          - button "Cambiar" [ref=f5e137] [cursor=pointer]
+      - generic [ref=f5e138]:
+        - generic [ref=f5e139]: 14:29:44
+        - generic [ref=f5e140]: lunes, 27 de julio
+    - generic [ref=f5e142]:
+      - navigation [ref=f5e143]:
+        - button "01 Registrar" [ref=f5e144] [cursor=pointer]:
+          - generic [ref=f5e145]: "01"
+          - generic [ref=f5e146]: Registrar
+        - button "02 Dentro 3" [ref=f5e147] [cursor=pointer]:
+          - generic [ref=f5e148]: "02"
+          - generic [ref=f5e149]: Dentro
+          - generic [ref=f5e150]: "3"
+        - button "03 Historial" [ref=f5e151] [cursor=pointer]:
+          - generic [ref=f5e152]: "03"
+          - generic [ref=f5e153]: Historial
+        - button "04 Usuarios" [ref=f5e154] [cursor=pointer]:
+          - generic [ref=f5e155]: "04"
+          - generic [ref=f5e156]: Usuarios
+        - button "05 Admin" [ref=f5e157] [cursor=pointer]:
+          - generic [ref=f5e158]: "05"
+          - generic [ref=f5e159]: Admin
+      - main [ref=f5e160]:
+        - generic [ref=f5e187]:
+          - generic [ref=f5e188]:
+            - button "Operadores" [ref=f5e189] [cursor=pointer]
+            - button "Campos de registro" [ref=f5e190] [cursor=pointer]
+          - generic [ref=f5e221]:
+            - generic [ref=f5e222]: Nuevo campo de registro
+            - generic [ref=f5e223]:
+              - generic [ref=f5e224]:
+                - 'textbox "Nombre del campo (ej: Color)" [ref=f5e225]': Color
+                - combobox [ref=f5e226] [cursor=pointer]:
+                  - option "Texto"
+                  - option "Número"
+                  - option "Sí / No"
+                  - option "Lista" [selected]
+                - generic [ref=f5e227] [cursor=pointer]:
+                  - checkbox "Obligatorio" [checked] [active] [ref=f5e228]
+                  - text: Obligatorio
+              - 'textbox "Opciones separadas por coma (ej: Rojo, Verde, Azul)" [ref=f5e235]': Rojo, Verde, Azul
+              - generic [ref=f5e233]:
+                - text: "key:"
+                - code [ref=f5e234]: color
+              - button "Crear campo" [ref=f5e230] [cursor=pointer]
+            - generic [ref=f5e231]: Campos configurados
+            - generic [ref=f5e232]: Todavía no hay campos personalizados. El formulario de entrada solo pide placa, tipo y foto.

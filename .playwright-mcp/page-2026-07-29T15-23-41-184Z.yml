@@ -1,0 +1,37 @@
+- generic [ref=f29e1]:
+  - generic [ref=f29e2]:
+    - banner [ref=f29e3]:
+      - generic [ref=f29e7]:
+        - generic [ref=f29e8]: Control de Estacionamiento
+        - generic [ref=f29e9]:
+          - generic [ref=f29e11]: "En turno:"
+          - generic [ref=f29e12]: —
+          - button "Cambiar" [ref=f29e13] [cursor=pointer]
+      - generic [ref=f29e14]:
+        - generic [ref=f29e15]: "--:--:--"
+        - button "Cambiar a tema claro" [ref=f29e17] [cursor=pointer]
+    - generic [ref=f29e25]:
+      - navigation [ref=f29e26]:
+        - button "Registrar" [ref=f29e27] [cursor=pointer]
+        - button "Dentro" [ref=f29e32] [cursor=pointer]
+        - button "Historial" [ref=f29e39] [cursor=pointer]
+        - button "Usuarios" [ref=f29e45] [cursor=pointer]
+      - main [ref=f29e52]:
+        - generic [ref=f29e54]:
+          - generic [ref=f29e55]:
+            - button "Entrada" [ref=f29e56] [cursor=pointer]
+            - button "Salida" [ref=f29e57] [cursor=pointer]
+          - generic [ref=f29e58]:
+            - generic [ref=f29e59]:
+              - generic [ref=f29e60]: Placa
+              - textbox "ABC-123" [ref=f29e62]
+            - generic [ref=f29e63]:
+              - generic [ref=f29e64]: Tipo de vehículo
+              - generic [ref=f29e66]:
+                - button "Auto" [ref=f29e67] [cursor=pointer]
+                - button "Moto" [ref=f29e74] [cursor=pointer]
+            - generic [ref=f29e82]:
+              - generic [ref=f29e83]: Foto (opcional)
+              - generic [ref=f29e85] [cursor=pointer]: Arrastra una foto del vehículo
+            - button "Registrar entrada" [disabled] [ref=f29e90]
+  - button "Open Next.js Dev Tools" [ref=f29e96] [cursor=pointer]

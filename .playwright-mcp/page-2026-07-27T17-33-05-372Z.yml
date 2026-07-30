@@ -1,0 +1,13 @@
+- generic [active] [ref=f5e1]:
+  - button "Open Next.js Dev Tools" [ref=f5e66] [cursor=pointer]
+  - alert [ref=f5e70]
+  - generic [ref=f5e329]:
+    - generic [ref=f5e333]:
+      - generic [ref=f5e334]: Control deEstacionamiento
+      - generic [ref=f5e335]: Acceso de operador
+    - generic [ref=f5e374]:
+      - generic [ref=f5e377]:
+        - generic [ref=f5e378]: Turno iniciado
+        - generic [ref=f5e379]: Ana Torres · acceso concedido
+      - link "Continuar →" [ref=f5e380] [cursor=pointer]:
+        - /url: /

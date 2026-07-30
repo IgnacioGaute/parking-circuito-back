@@ -1,0 +1,287 @@
+- generic [ref=f23e3]:
+  - banner [ref=f23e4]:
+    - generic [ref=f23e5]:
+      - button "Amicro" [ref=f23e7] [cursor=pointer]
+      - generic [ref=f23e13]:
+        - link "Star" [ref=f23e14] [cursor=pointer]:
+          - /url: https://github.com/Subhan-code/Amicro--Micro-transitions-
+        - button "Toggle Theme (Copies ThemeToggle code)" [ref=f23e18] [cursor=pointer]
+        - button "Toggle mobile menu" [ref=f23e25] [cursor=pointer]
+  - generic [ref=f23e27]:
+    - generic [ref=f23e28]:
+      - generic [ref=f23e29]:
+        - heading "Amicro — Micro-transitions" [level=1] [ref=f23e30]
+        - paragraph [ref=f23e31]: A curated library of premium micro-interactions and transition components. Built with React and Motion.
+        - generic [ref=f23e32]:
+          - link "GitHub Repo" [ref=f23e33] [cursor=pointer]:
+            - /url: https://github.com/Subhan-code/Amicro--Micro-transitions-
+          - button "Browse Components" [ref=f23e39] [cursor=pointer]
+        - generic [ref=f23e46]:
+          - generic [ref=f23e47]: Sponsored by
+          - generic [ref=f23e48]:
+            - link "Ossium Logo Ossium The ultimate hub for open-source contributors. Discover open-source projects, issues, and bounties from across the ecosystem." [ref=f23e49] [cursor=pointer]:
+              - /url: https://ossium.live/
+              - generic [ref=f23e50]:
+                - generic [ref=f23e51]:
+                  - img "Ossium Logo" [ref=f23e52]
+                  - generic [ref=f23e53]: Ossium
+                - paragraph [ref=f23e54]: The ultimate hub for open-source contributors. Discover open-source projects, issues, and bounties from across the ecosystem.
+            - button "+ Sponsor $49/mo" [ref=f23e55] [cursor=pointer]:
+              - generic [ref=f23e56]:
+                - generic [ref=f23e57]: +
+                - text: Sponsor
+              - generic [ref=f23e58]: $49/mo
+            - button "+ Sponsor $49/mo" [ref=f23e59] [cursor=pointer]:
+              - generic [ref=f23e60]:
+                - generic [ref=f23e61]: +
+                - text: Sponsor
+              - generic [ref=f23e62]: $49/mo
+            - button "+ Sponsor $49/mo" [ref=f23e63] [cursor=pointer]:
+              - generic [ref=f23e64]:
+                - generic [ref=f23e65]: +
+                - text: Sponsor
+              - generic [ref=f23e66]: $49/mo
+        - generic [ref=f23e67]:
+          - button "Buttons" [ref=f23e69] [cursor=pointer]
+          - button "A-Z" [ref=f23e75] [cursor=pointer]
+      - generic [ref=f23e81]:
+        - generic [ref=f23e83]:
+          - button "Download for Mac" [ref=f23e85] [cursor=pointer]
+          - generic [ref=f23e91]:
+            - generic [ref=f23e92]: Download for Mac
+            - generic [ref=f23e93]: slide arrow interaction
+          - button "Copy interaction code" [ref=f23e94] [cursor=pointer]
+        - generic [ref=f23e99]:
+          - button "Star on GitHub" [ref=f23e101] [cursor=pointer]
+          - generic [ref=f23e109]:
+            - generic [ref=f23e110]: Star on GitHub
+            - generic [ref=f23e111]: sparkle interaction
+          - button "Copy interaction code" [ref=f23e112] [cursor=pointer]
+        - generic [ref=f23e117]:
+          - button "Deploy App" [ref=f23e119] [cursor=pointer]
+          - generic [ref=f23e126]:
+            - generic [ref=f23e127]: Deploy App
+            - generic [ref=f23e128]: morph interaction
+          - button "Copy interaction code" [ref=f23e129] [cursor=pointer]
+        - generic [ref=f23e134]:
+          - button "Copy Hash" [ref=f23e136] [cursor=pointer]
+          - generic [ref=f23e144]:
+            - generic [ref=f23e145]: Copy Hash
+            - generic [ref=f23e146]: morph interaction
+          - button "Copy interaction code" [ref=f23e147] [cursor=pointer]
+        - generic [ref=f23e152]:
+          - button "Sponsor" [ref=f23e154] [cursor=pointer]
+          - generic [ref=f23e161]:
+            - generic [ref=f23e162]: Sponsor
+            - generic [ref=f23e163]: pulse interaction
+          - button "Copy interaction code" [ref=f23e164] [cursor=pointer]
+        - generic [ref=f23e169]:
+          - button "Share" [ref=f23e171] [cursor=pointer]
+          - generic [ref=f23e179]:
+            - generic [ref=f23e180]: Share
+            - generic [ref=f23e181]: morph interaction
+          - button "Copy interaction code" [ref=f23e182] [cursor=pointer]
+        - generic [ref=f23e187]:
+          - button "Preview" [ref=f23e189] [cursor=pointer]
+          - generic [ref=f23e196]:
+            - generic [ref=f23e197]: Preview
+            - generic [ref=f23e198]: morph interaction
+          - button "Copy interaction code" [ref=f23e199] [cursor=pointer]
+        - generic [ref=f23e204]:
+          - button "Settings" [ref=f23e206] [cursor=pointer]
+          - generic [ref=f23e214]:
+            - generic [ref=f23e215]: Settings
+            - generic [ref=f23e216]: rotate interaction
+          - button "Copy interaction code" [ref=f23e217] [cursor=pointer]
+        - generic [ref=f23e222]:
+          - button "Delete" [ref=f23e224] [cursor=pointer]
+          - generic [ref=f23e232]:
+            - generic [ref=f23e233]: Delete
+            - generic [ref=f23e234]: shake interaction
+          - button "Copy interaction code" [ref=f23e235] [cursor=pointer]
+        - generic [ref=f23e240]:
+          - button "Subscribe" [ref=f23e242] [cursor=pointer]
+          - generic [ref=f23e250]:
+            - generic [ref=f23e251]: Subscribe
+            - generic [ref=f23e252]: ring interaction
+          - button "Copy interaction code" [ref=f23e253] [cursor=pointer]
+        - generic [ref=f23e258]:
+          - button "Search" [ref=f23e260] [cursor=pointer]
+          - generic [ref=f23e268]:
+            - generic [ref=f23e269]: Search
+            - generic [ref=f23e270]: morph interaction
+          - button "Copy interaction code" [ref=f23e271] [cursor=pointer]
+        - generic [ref=f23e276]:
+          - button "Theme" [ref=f23e278] [cursor=pointer]
+          - generic [ref=f23e285]:
+            - generic [ref=f23e286]: Theme
+            - generic [ref=f23e287]: morph interaction
+          - button "Copy interaction code" [ref=f23e288] [cursor=pointer]
+        - generic [ref=f23e293]:
+          - button "Microphone" [ref=f23e295] [cursor=pointer]
+          - generic [ref=f23e303]:
+            - generic [ref=f23e304]: Microphone
+            - generic [ref=f23e305]: morph interaction
+          - button "Copy interaction code" [ref=f23e306] [cursor=pointer]
+        - generic [ref=f23e311]:
+          - button "Camera" [ref=f23e313] [cursor=pointer]
+          - generic [ref=f23e321]:
+            - generic [ref=f23e322]: Camera
+            - generic [ref=f23e323]: morph interaction
+          - button "Copy interaction code" [ref=f23e324] [cursor=pointer]
+        - generic [ref=f23e329]:
+          - button "Volume" [ref=f23e331] [cursor=pointer]
+          - generic [ref=f23e340]:
+            - generic [ref=f23e341]: Volume
+            - generic [ref=f23e342]: morph interaction
+          - button "Copy interaction code" [ref=f23e343] [cursor=pointer]
+        - generic [ref=f23e348]:
+          - button "Lock" [ref=f23e350] [cursor=pointer]
+          - generic [ref=f23e358]:
+            - generic [ref=f23e359]: Lock
+            - generic [ref=f23e360]: morph interaction
+          - button "Copy interaction code" [ref=f23e361] [cursor=pointer]
+        - generic [ref=f23e366]:
+          - button "Directory" [ref=f23e368] [cursor=pointer]
+          - generic [ref=f23e375]:
+            - generic [ref=f23e376]: Directory
+            - generic [ref=f23e377]: morph interaction
+          - button "Copy interaction code" [ref=f23e378] [cursor=pointer]
+        - generic [ref=f23e383]:
+          - button "Visibility" [ref=f23e385] [cursor=pointer]
+          - generic [ref=f23e393]:
+            - generic [ref=f23e394]: Visibility
+            - generic [ref=f23e395]: morph interaction
+          - button "Copy interaction code" [ref=f23e396] [cursor=pointer]
+        - generic [ref=f23e401]:
+          - button "Save Later" [ref=f23e403] [cursor=pointer]
+          - generic [ref=f23e410]:
+            - generic [ref=f23e411]: Save Later
+            - generic [ref=f23e412]: color morph interaction
+          - button "Copy interaction code" [ref=f23e413] [cursor=pointer]
+        - generic [ref=f23e418]:
+          - button "Like" [ref=f23e420] [cursor=pointer]
+          - generic [ref=f23e427]:
+            - generic [ref=f23e428]: Like
+            - generic [ref=f23e429]: color morph interaction
+          - button "Copy interaction code" [ref=f23e430] [cursor=pointer]
+        - generic [ref=f23e435]:
+          - button "Download" [ref=f23e437] [cursor=pointer]
+          - generic [ref=f23e445]:
+            - generic [ref=f23e446]: Download
+            - generic [ref=f23e447]: morph interaction
+          - button "Copy interaction code" [ref=f23e448] [cursor=pointer]
+        - generic [ref=f23e453]:
+          - button "Upload" [ref=f23e455] [cursor=pointer]
+          - generic [ref=f23e463]:
+            - generic [ref=f23e464]: Upload
+            - generic [ref=f23e465]: morph interaction
+          - button "Copy interaction code" [ref=f23e466] [cursor=pointer]
+        - generic [ref=f23e471]:
+          - button "Account" [ref=f23e473] [cursor=pointer]
+          - generic [ref=f23e481]:
+            - generic [ref=f23e482]: Account
+            - generic [ref=f23e483]: morph interaction
+          - button "Copy interaction code" [ref=f23e484] [cursor=pointer]
+        - generic [ref=f23e489]:
+          - button "Submit" [ref=f23e491] [cursor=pointer]
+          - generic [ref=f23e499]:
+            - generic [ref=f23e500]: Submit
+            - generic [ref=f23e501]: morph interaction
+          - button "Copy interaction code" [ref=f23e502] [cursor=pointer]
+        - generic [ref=f23e507]:
+          - button "Edit" [ref=f23e509] [cursor=pointer]
+          - generic [ref=f23e516]:
+            - generic [ref=f23e517]: Edit
+            - generic [ref=f23e518]: morph interaction
+          - button "Copy interaction code" [ref=f23e519] [cursor=pointer]
+        - generic [ref=f23e524]:
+          - button "Network" [ref=f23e526] [cursor=pointer]
+          - generic [ref=f23e535]:
+            - generic [ref=f23e536]: Network
+            - generic [ref=f23e537]: morph interaction
+          - button "Copy interaction code" [ref=f23e538] [cursor=pointer]
+        - generic [ref=f23e543]:
+          - button "Power" [ref=f23e545] [cursor=pointer]
+          - generic [ref=f23e552]:
+            - generic [ref=f23e553]: Power
+            - generic [ref=f23e554]: morph interaction
+          - button "Copy interaction code" [ref=f23e555] [cursor=pointer]
+        - generic [ref=f23e560]:
+          - button "Expand" [ref=f23e562] [cursor=pointer]
+          - generic [ref=f23e572]:
+            - generic [ref=f23e573]: Expand
+            - generic [ref=f23e574]: morph interaction
+          - button "Copy interaction code" [ref=f23e575] [cursor=pointer]
+        - generic [ref=f23e580]:
+          - button "Reload" [ref=f23e582] [cursor=pointer]
+          - generic [ref=f23e592]:
+            - generic [ref=f23e593]: Reload
+            - generic [ref=f23e594]: rotate interaction
+          - button "Copy interaction code" [ref=f23e595] [cursor=pointer]
+        - generic [ref=f23e600]:
+          - button "Favorite" [ref=f23e602] [cursor=pointer]
+          - generic [ref=f23e609]:
+            - generic [ref=f23e610]: Favorite
+            - generic [ref=f23e611]: color morph interaction
+          - button "Copy interaction code" [ref=f23e612] [cursor=pointer]
+        - generic [ref=f23e617]:
+          - button "Glare Shine" [ref=f23e619] [cursor=pointer]
+          - generic [ref=f23e624]:
+            - generic [ref=f23e625]: Glare Shine
+            - generic [ref=f23e626]: glare interaction
+          - button "Copy interaction code" [ref=f23e627] [cursor=pointer]
+        - generic [ref=f23e632]:
+          - button "Text Reveal Text Reveal" [ref=f23e634] [cursor=pointer]:
+            - generic [ref=f23e641]:
+              - generic [ref=f23e642]: Text Reveal
+              - generic [ref=f23e643]: Text Reveal
+          - generic [ref=f23e644]:
+            - generic [ref=f23e645]: Text Reveal
+            - generic [ref=f23e646]: text reveal interaction
+          - button "Copy interaction code" [ref=f23e647] [cursor=pointer]
+        - generic [ref=f23e652]:
+          - button "Magnetic Field" [ref=f23e654] [cursor=pointer]
+          - generic [ref=f23e660]:
+            - generic [ref=f23e661]: Magnetic Field
+            - generic [ref=f23e662]: magnetic interaction
+          - button "Copy interaction code" [ref=f23e663] [cursor=pointer]
+        - generic [ref=f23e668]:
+          - button "Expand Ring" [ref=f23e670] [cursor=pointer]
+          - generic [ref=f23e678]:
+            - generic [ref=f23e679]: Expand Ring
+            - generic [ref=f23e680]: expand ring interaction
+          - button "Copy interaction code" [ref=f23e681] [cursor=pointer]
+        - generic [ref=f23e686]:
+          - generic [ref=f23e688]:
+            - link "@X" [ref=f23e689] [cursor=pointer]:
+              - /url: "#"
+            - link "@Threads" [ref=f23e690] [cursor=pointer]:
+              - /url: "#"
+            - link "@GitHub" [ref=f23e691] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=f23e692]:
+            - generic [ref=f23e693]: Focus Blur Links
+            - generic [ref=f23e694]: focus blur interaction
+          - button "Copy interaction code" [ref=f23e695] [cursor=pointer]
+    - complementary [ref=f23e699]:
+      - generic [ref=f23e701]:
+        - generic [ref=f23e702]:
+          - paragraph [ref=f23e703]:
+            - text: If you want to use beautiful ready-to-use UI components, I highly recommend
+            - link "Oxygen UI" [ref=f23e704] [cursor=pointer]:
+              - /url: https://oxygen-ui.vercel.app
+            - text: .
+          - paragraph [ref=f23e705]:
+            - link "Syed Subhan" [ref=f23e706] [cursor=pointer]:
+              - /url: https://x.com/SubhanHQ
+            - generic [ref=f23e707]: Creator of Oxygen UI
+        - link "Get Oxygen UI" [ref=f23e708] [cursor=pointer]:
+          - /url: https://oxygen-ui.vercel.app
+  - contentinfo [ref=f23e715]:
+    - text: Created by
+    - link "Syed Subhan" [ref=f23e716] [cursor=pointer]:
+      - /url: https://x.com/SubhanHQ
+    - text: ·
+    - link "Terms & License" [ref=f23e717] [cursor=pointer]:
+      - /url: https://github.com/Subhan-code/Amicro--Micro-transitions-#readme

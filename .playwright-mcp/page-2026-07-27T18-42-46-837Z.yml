@@ -1,0 +1,69 @@
+- generic [ref=f16e1]:
+  - generic [ref=f16e2]:
+    - banner [ref=f16e3]:
+      - generic [ref=f16e7]:
+        - generic [ref=f16e8]: Control de Estacionamiento
+        - generic [ref=f16e9]:
+          - generic [ref=f16e11]: "En turno:"
+          - generic [ref=f16e12]: Carlos Ruiz
+          - button "Cambiar" [ref=f16e13] [cursor=pointer]
+      - generic [ref=f16e14]:
+        - generic [ref=f16e15]: 15:42:45
+        - generic [ref=f16e67]: lunes, 27 de julio
+    - generic [ref=f16e17]:
+      - navigation [ref=f16e18]:
+        - button "01 Registrar" [ref=f16e19] [cursor=pointer]:
+          - generic [ref=f16e20]: "01"
+          - generic [ref=f16e21]: Registrar
+        - button "02 Dentro 4" [ref=f16e68] [cursor=pointer]:
+          - generic [ref=f16e23]: "02"
+          - generic [ref=f16e24]: Dentro
+          - generic [ref=f16e69]: "4"
+        - button "03 Historial" [ref=f16e25] [cursor=pointer]:
+          - generic [ref=f16e26]: "03"
+          - generic [ref=f16e27]: Historial
+        - button "04 Usuarios" [ref=f16e28] [cursor=pointer]:
+          - generic [ref=f16e29]: "04"
+          - generic [ref=f16e30]: Usuarios
+        - button "05 Admin" [active] [ref=f16e70] [cursor=pointer]:
+          - generic [ref=f16e71]: "05"
+          - generic [ref=f16e72]: Admin
+      - main [ref=f16e31]:
+        - generic [ref=f16e98]:
+          - generic [ref=f16e99]:
+            - button "Operadores" [ref=f16e100] [cursor=pointer]
+            - button "Campos de registro" [ref=f16e101] [cursor=pointer]
+          - generic [ref=f16e102]:
+            - generic [ref=f16e103]: Crear operador
+            - generic [ref=f16e104]:
+              - textbox "Nombre" [ref=f16e105]
+              - textbox "PIN (4 dígitos)" [ref=f16e106]
+              - combobox [ref=f16e107] [cursor=pointer]:
+                - option "Usuario" [selected]
+                - option "Admin"
+              - button "Crear" [disabled] [ref=f16e108] [cursor=pointer]
+            - generic [ref=f16e109]: Operadores
+            - generic [ref=f16e110]:
+              - generic [ref=f16e111]:
+                - generic [ref=f16e112]: AT
+                - generic [ref=f16e113]:
+                  - generic [ref=f16e114]: Ana Torres
+                  - generic [ref=f16e115]: Operador
+                - button "Editar" [ref=f16e116] [cursor=pointer]
+                - button "Eliminar" [ref=f16e117] [cursor=pointer]
+              - generic [ref=f16e118]:
+                - generic [ref=f16e119]: CR
+                - generic [ref=f16e120]:
+                  - generic [ref=f16e121]: Carlos Ruiz (vos)
+                  - generic [ref=f16e122]: Administrador
+                - button "Editar" [ref=f16e123] [cursor=pointer]
+                - button "Eliminar" [ref=f16e124] [cursor=pointer]
+              - generic [ref=f16e125]:
+                - generic [ref=f16e126]: LM
+                - generic [ref=f16e127]:
+                  - generic [ref=f16e128]: Luis Medina
+                  - generic [ref=f16e129]: Operador
+                - button "Editar" [ref=f16e130] [cursor=pointer]
+                - button "Eliminar" [ref=f16e131] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f16e63] [cursor=pointer]
+  - alert [ref=f16e97]

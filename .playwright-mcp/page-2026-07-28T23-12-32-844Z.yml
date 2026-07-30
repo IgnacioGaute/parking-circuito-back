@@ -1,0 +1,57 @@
+- generic [active] [ref=f22e1]:
+  - button "Open Next.js Dev Tools" [ref=f22e22] [cursor=pointer]
+  - alert [ref=f22e39]
+  - generic [ref=f22e71]:
+    - banner [ref=f22e72]:
+      - generic [ref=f22e76]:
+        - generic [ref=f22e77]: Control de Estacionamiento
+        - generic [ref=f22e78]:
+          - generic [ref=f22e80]: "En turno:"
+          - generic [ref=f22e81]: Carlos Ruiz
+          - button "Cambiar" [ref=f22e82] [cursor=pointer]
+      - generic [ref=f22e83]:
+        - generic [ref=f22e84]: 20:12:32
+        - generic [ref=f22e85]: martes, 28 de julio
+    - generic [ref=f22e87]:
+      - navigation [ref=f22e88]:
+        - button "01 Registrar" [ref=f22e89] [cursor=pointer]:
+          - generic [ref=f22e90]: "01"
+          - generic [ref=f22e91]: Registrar
+        - button "02 Dentro 5" [ref=f22e92] [cursor=pointer]:
+          - generic [ref=f22e93]: "02"
+          - generic [ref=f22e94]: Dentro
+          - generic [ref=f22e95]: "5"
+        - button "03 Historial" [ref=f22e96] [cursor=pointer]:
+          - generic [ref=f22e97]: "03"
+          - generic [ref=f22e98]: Historial
+        - button "04 Usuarios" [ref=f22e99] [cursor=pointer]:
+          - generic [ref=f22e100]: "04"
+          - generic [ref=f22e101]: Usuarios
+        - button "05 Admin" [ref=f22e102] [cursor=pointer]:
+          - generic [ref=f22e103]: "05"
+          - generic [ref=f22e104]: Admin
+      - main [ref=f22e105]:
+        - generic [ref=f22e107]:
+          - generic [ref=f22e108]:
+            - button "Entrada" [ref=f22e109] [cursor=pointer]
+            - button "Salida" [ref=f22e110] [cursor=pointer]
+          - generic [ref=f22e111]:
+            - generic [ref=f22e112]:
+              - generic [ref=f22e113]: nombre
+              - textbox [ref=f22e115]
+            - generic [ref=f22e116]:
+              - generic [ref=f22e117]: Placa
+              - textbox "ABC-123" [ref=f22e119]
+            - generic [ref=f22e120]:
+              - generic [ref=f22e121]: Tipo de vehículo
+              - generic [ref=f22e123]:
+                - button "A Auto" [ref=f22e124] [cursor=pointer]:
+                  - generic [ref=f22e125]: A
+                  - generic [ref=f22e126]: Auto
+                - button "M Moto" [ref=f22e127] [cursor=pointer]:
+                  - generic [ref=f22e128]: M
+                  - generic [ref=f22e129]: Moto
+            - generic [ref=f22e130]:
+              - generic [ref=f22e131]: Foto (opcional)
+              - generic [ref=f22e133] [cursor=pointer]: Arrastra una foto del vehículo
+            - button "Registrar entrada" [disabled] [ref=f22e135]

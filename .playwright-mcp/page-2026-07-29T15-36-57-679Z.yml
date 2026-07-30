@@ -1,0 +1,35 @@
+- generic [ref=f35e2]:
+  - banner [ref=f35e3]:
+    - generic [ref=f35e7]:
+      - generic [ref=f35e8]: Control de Estacionamiento
+      - generic [ref=f35e9]:
+        - generic [ref=f35e11]: "En turno:"
+        - generic [ref=f35e12]: —
+        - button "Cambiar" [ref=f35e13] [cursor=pointer]
+    - generic [ref=f35e14]:
+      - generic [ref=f35e15]: "--:--:--"
+      - button "Cambiar a tema claro" [ref=f35e17] [cursor=pointer]
+  - generic [ref=f35e25]:
+    - navigation [ref=f35e26]:
+      - button "Registrar" [ref=f35e27] [cursor=pointer]
+      - button "Dentro" [ref=f35e32] [cursor=pointer]
+      - button "Historial" [ref=f35e39] [cursor=pointer]
+      - button "Usuarios" [ref=f35e45] [cursor=pointer]
+    - main [ref=f35e52]:
+      - generic [ref=f35e54]:
+        - generic [ref=f35e55]:
+          - button "Entrada" [ref=f35e56] [cursor=pointer]
+          - button "Salida" [ref=f35e57] [cursor=pointer]
+        - generic [ref=f35e58]:
+          - generic [ref=f35e59]:
+            - generic [ref=f35e60]: Placa
+            - textbox "ABC-123" [ref=f35e62]
+          - generic [ref=f35e63]:
+            - generic [ref=f35e64]: Tipo de vehículo
+            - generic [ref=f35e66]:
+              - button "Auto" [ref=f35e67] [cursor=pointer]
+              - button "Moto" [ref=f35e74] [cursor=pointer]
+          - generic [ref=f35e82]:
+            - generic [ref=f35e83]: Foto (opcional)
+            - generic [ref=f35e85] [cursor=pointer]: Arrastra una foto del vehículo
+          - button "Registrar entrada" [disabled] [ref=f35e90]

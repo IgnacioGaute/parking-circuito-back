@@ -1,0 +1,69 @@
+- generic [ref=f5e1]:
+  - button "Open Next.js Dev Tools" [ref=f5e66] [cursor=pointer]
+  - alert [ref=f5e70]
+  - generic [ref=f5e126]:
+    - banner [ref=f5e127]:
+      - generic [ref=f5e131]:
+        - generic [ref=f5e132]: Control de Estacionamiento
+        - generic [ref=f5e133]:
+          - generic [ref=f5e135]: "En turno:"
+          - generic [ref=f5e136]: Carlos Ruiz
+          - button "Cambiar" [ref=f5e137] [cursor=pointer]
+      - generic [ref=f5e138]:
+        - generic [ref=f5e139]: 14:28:29
+        - generic [ref=f5e140]: lunes, 27 de julio
+    - generic [ref=f5e142]:
+      - navigation [ref=f5e143]:
+        - button "01 Registrar" [ref=f5e144] [cursor=pointer]:
+          - generic [ref=f5e145]: "01"
+          - generic [ref=f5e146]: Registrar
+        - button "02 Dentro 3" [ref=f5e147] [cursor=pointer]:
+          - generic [ref=f5e148]: "02"
+          - generic [ref=f5e149]: Dentro
+          - generic [ref=f5e150]: "3"
+        - button "03 Historial" [ref=f5e151] [cursor=pointer]:
+          - generic [ref=f5e152]: "03"
+          - generic [ref=f5e153]: Historial
+        - button "04 Usuarios" [ref=f5e154] [cursor=pointer]:
+          - generic [ref=f5e155]: "04"
+          - generic [ref=f5e156]: Usuarios
+        - button "05 Admin" [active] [ref=f5e157] [cursor=pointer]:
+          - generic [ref=f5e158]: "05"
+          - generic [ref=f5e159]: Admin
+      - main [ref=f5e160]:
+        - generic [ref=f5e187]:
+          - generic [ref=f5e188]:
+            - button "Operadores" [ref=f5e189] [cursor=pointer]
+            - button "Campos de registro" [ref=f5e190] [cursor=pointer]
+          - generic [ref=f5e191]:
+            - generic [ref=f5e192]: Crear operador
+            - generic [ref=f5e193]:
+              - textbox "Nombre" [ref=f5e194]
+              - textbox "PIN (4 dígitos)" [ref=f5e195]
+              - combobox [ref=f5e196] [cursor=pointer]:
+                - option "Usuario" [selected]
+                - option "Admin"
+              - button "Crear" [disabled] [ref=f5e197] [cursor=pointer]
+            - generic [ref=f5e198]: Operadores
+            - generic [ref=f5e199]:
+              - generic [ref=f5e200]:
+                - generic [ref=f5e201]: AT
+                - generic [ref=f5e202]:
+                  - generic [ref=f5e203]: Ana Torres
+                  - generic [ref=f5e204]: Operador
+                - button "Editar" [ref=f5e205] [cursor=pointer]
+                - button "Eliminar" [ref=f5e206] [cursor=pointer]
+              - generic [ref=f5e207]:
+                - generic [ref=f5e208]: CR
+                - generic [ref=f5e209]:
+                  - generic [ref=f5e210]: Carlos Ruiz (vos)
+                  - generic [ref=f5e211]: Administrador
+                - button "Editar" [ref=f5e212] [cursor=pointer]
+                - button "Eliminar" [ref=f5e213] [cursor=pointer]
+              - generic [ref=f5e214]:
+                - generic [ref=f5e215]: LM
+                - generic [ref=f5e216]:
+                  - generic [ref=f5e217]: Luis Medina
+                  - generic [ref=f5e218]: Operador
+                - button "Editar" [ref=f5e219] [cursor=pointer]
+                - button "Eliminar" [ref=f5e220] [cursor=pointer]

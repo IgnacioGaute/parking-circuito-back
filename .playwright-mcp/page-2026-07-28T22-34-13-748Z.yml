@@ -1,0 +1,9 @@
+- generic [active] [ref=f17e1]:
+  - generic [ref=f17e5]:
+    - generic [ref=f17e9]:
+      - generic [ref=f17e10]: Control deEstacionamiento
+      - generic [ref=f17e11]: Acceso de operador
+    - generic [ref=f17e14]:
+      - generic [ref=f17e15]: Selecciona tu turno
+      - generic [ref=f17e16]: Cargando operadores…
+  - button "Open Next.js Dev Tools" [ref=f17e22] [cursor=pointer]

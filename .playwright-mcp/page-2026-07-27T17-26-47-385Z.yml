@@ -1,0 +1,19 @@
+- generic [active] [ref=f5e1]:
+  - button "Open Next.js Dev Tools" [ref=f5e66] [cursor=pointer]
+  - alert [ref=f5e70]
+  - generic [ref=f5e74]:
+    - generic [ref=f5e78]:
+      - generic [ref=f5e79]: Control deEstacionamiento
+      - generic [ref=f5e80]: Acceso de operador
+    - generic [ref=f5e83]:
+      - generic [ref=f5e84]: Selecciona tu turno
+      - generic [ref=f5e85]:
+        - button "AT Ana Torres" [ref=f5e86] [cursor=pointer]:
+          - generic [ref=f5e87]: AT
+          - generic [ref=f5e88]: Ana Torres
+        - button "CR Carlos Ruiz" [ref=f5e89] [cursor=pointer]:
+          - generic [ref=f5e90]: CR
+          - generic [ref=f5e91]: Carlos Ruiz
+        - button "LM Luis Medina" [ref=f5e92] [cursor=pointer]:
+          - generic [ref=f5e93]: LM
+          - generic [ref=f5e94]: Luis Medina

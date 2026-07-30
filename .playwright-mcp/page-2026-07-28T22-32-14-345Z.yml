@@ -1,0 +1,38 @@
+- generic [ref=f9e2]:
+  - heading "You are about to visit:" [level=2] [ref=f9e4]
+  - heading "https://cold-seahorse-20.loca.lt" [level=4] [ref=f9e6]
+  - paragraph [ref=f9e8]:
+    - text: "This tunnel is hosted by:"
+    - generic "Click to copy" [ref=f9e9] [cursor=pointer]: 138.117.19.127
+  - separator [ref=f9e14]
+  - paragraph [ref=f9e16]:
+    - text: This website is served for free via a
+    - link "localtunnel" [ref=f9e17] [cursor=pointer]:
+      - /url: https://loca.lt
+    - text: .
+  - paragraph [ref=f9e19]: You should only visit this website if you trust whoever sent this link to you.
+  - paragraph [ref=f9e21]: Be careful about giving up personal or financial details such as passwords, credit cards, phone numbers, emails, etc. Phishing pages often look similar to pages of known banks, social networks, email portals or other trusted institutions in order to acquire personal information such as usernames, passwords or credit card details.
+  - paragraph [ref=f9e23]: Please proceed with caution.
+  - generic [ref=f9e24]:
+    - heading "To continue, enter the IP shown above." [level=5] [ref=f9e26]
+    - generic [ref=f9e28]:
+      - generic [ref=f9e29]: "IP Address:"
+      - textbox "e.g. 203.0.113.42" [ref=f9e31]
+    - button "Continue" [ref=f9e33] [cursor=pointer]
+  - separator [ref=f9e34]
+  - heading "Are you the tunnel host?" [level=5] [ref=f9e36]
+  - list [ref=f9e37]:
+    - listitem [ref=f9e38]: You and your users will only see this page once per client's public IP every 7 days.
+    - listitem [ref=f9e39]: We display this page and expose the host's IP to prevent abuse.
+    - listitem [ref=f9e40]: Localtunnel is not an anonymizing service. It has been misused for malware, C2 servers, and phishing.
+  - heading "To bypass this page programmatically:" [level=6] [ref=f9e42]
+  - list [ref=f9e43]:
+    - listitem [ref=f9e44]:
+      - text: Set a
+      - code [ref=f9e45]: bypass-tunnel-reminder
+      - text: request header with any value
+    - listitem [ref=f9e46]:
+      - text: Or, set a custom / non-standard browser
+      - code [ref=f9e47]: User-Agent
+      - text: request header
+  - paragraph [ref=f9e48]: Webhook, IPN, and other non-browser requests are tunnelled directly. If your webhook provider sends requests with a real browser user-agent, those will also see this page.
