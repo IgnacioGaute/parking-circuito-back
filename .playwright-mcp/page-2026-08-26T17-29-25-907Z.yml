@@ -1,0 +1,116 @@
+- generic [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e29] [cursor=pointer]
+  - alert [ref=e65]
+  - generic [ref=e107]:
+    - navigation [ref=e108]:
+      - generic [ref=e109]: Control de Estacionamiento
+      - generic [ref=e113]:
+        - button "Registrar" [ref=e114] [cursor=pointer]
+        - button "Dentro 1" [ref=e118] [cursor=pointer]:
+          - generic [ref=e124]: Dentro
+          - generic [ref=e125]: "1"
+        - button "Historial" [active] [ref=e126] [cursor=pointer]
+        - button "Usuarios" [ref=e130] [cursor=pointer]
+      - button "Contraer" [ref=e138] [cursor=pointer]
+    - generic [ref=e143]:
+      - banner [ref=e144]:
+        - generic [ref=e145]: Luis Medina
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - generic [ref=e150]: 14:29:25
+            - button "Ver recorrido guiado" [ref=e155] [cursor=pointer]
+            - button "Cambiar a tema oscuro" [ref=e159] [cursor=pointer]
+          - button "Cerrar turno" [ref=e162] [cursor=pointer]
+      - main [ref=e166]:
+        - generic [ref=e191]:
+          - generic [ref=e192]: Historial
+          - generic [ref=e193]:
+            - textbox "Buscar por placa" [ref=e195]
+            - combobox [ref=e197] [cursor=pointer]:
+              - option "Todos los tipos" [selected]
+              - option "Auto"
+              - option "Moto"
+            - button "Filtrar por fecha y horario" [ref=e198] [cursor=pointer]
+          - generic [ref=e200]:
+            - generic [ref=e201]:
+              - generic [ref=e202]:
+                - generic [ref=e203]:
+                  - generic [ref=e204]: Viernes, 07 ago
+                  - generic [ref=e205]: 1 registro
+                - button "Descargar PDF del Viernes, 07 ago" [ref=e206] [cursor=pointer]: PDF
+              - generic [ref=e211]:
+                - generic [ref=e212]:
+                  - generic [ref=e213]: JJDJ
+                  - generic [ref=e220]: ignacio
+                - generic [ref=e221]:
+                  - generic [ref=e222]: 18:44 – 12:08
+                  - generic [ref=e223]: 185h 24m
+                - generic [ref=e224]: "nombre: nacho"
+            - generic [ref=e226]:
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - generic [ref=e229]: Jueves, 30 jul
+                  - generic [ref=e230]: 5 registros
+                - button "Descargar PDF del Jueves, 30 jul" [ref=e231] [cursor=pointer]: PDF
+              - generic [ref=e236]:
+                - generic [ref=e237]:
+                  - generic [ref=e238]: JDJJ
+                  - generic [ref=e246]: ignacio
+                - generic [ref=e247]:
+                  - generic [ref=e248]: 18:43 – 18:44
+                  - generic [ref=e249]: 0m
+                - generic [ref=e250]: "nombre: juan"
+              - generic [ref=e252]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: JSJ34
+                  - generic [ref=e262]: ignacio
+                - generic [ref=e263]:
+                  - generic [ref=e264]: 18:08 – 18:08
+                  - generic [ref=e265]: 0m
+                - generic [ref=e266]: "nombre: nacho"
+              - generic [ref=e268]:
+                - generic [ref=e269]:
+                  - generic [ref=e270]: WERWE
+                  - generic [ref=e277]: ignacio
+                - generic [ref=e278]:
+                  - generic [ref=e279]: 15:36 – 18:04
+                  - generic [ref=e280]: 2h 28m
+                - generic [ref=e281]: "DNI: 234234"
+              - generic [ref=e283]:
+                - generic [ref=e284]:
+                  - generic [ref=e285]: TEST01
+                  - generic [ref=e292]: Luis Medina
+                - generic [ref=e293]:
+                  - generic [ref=e294]: 16:45 – 16:45
+                  - generic [ref=e295]: 0m
+              - generic [ref=e296]:
+                - generic [ref=e297]:
+                  - generic [ref=e298]: WDQW
+                  - generic [ref=e306]: Ana Torres → ignacio
+                - generic [ref=e307]:
+                  - generic [ref=e308]: 13:39 – 15:35
+                  - generic [ref=e309]: 25h 56m
+                - generic [ref=e310]: "nombre: nacho"
+            - generic [ref=e312]:
+              - generic [ref=e313]:
+                - generic [ref=e314]:
+                  - generic [ref=e315]: Miércoles, 29 jul
+                  - generic [ref=e316]: 2 registros
+                - button "Descargar PDF del Miércoles, 29 jul" [ref=e317] [cursor=pointer]: PDF
+              - generic [ref=e322]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: GHJ
+                  - generic [ref=e332]: Ana Torres
+                - generic [ref=e333]:
+                  - generic [ref=e334]: 13:29 – 13:38
+                  - generic [ref=e335]: 9m
+                - generic [ref=e336]: "nombre: ugjgjy"
+              - generic [ref=e338]:
+                - generic [ref=e339]:
+                  - generic [ref=e340]: HJJH
+                  - generic [ref=e347]: ignacio → Ana Torres
+                - generic [ref=e348]:
+                  - generic [ref=e349]: 13:29 – 13:29
+                  - generic [ref=e350]: 0m
+                - generic [ref=e351]: "nombre: nacho"
+            - button "Cargar 8 más (25 restantes)" [ref=e353] [cursor=pointer]

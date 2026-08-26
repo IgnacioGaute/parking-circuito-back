@@ -1,0 +1,38 @@
+- generic [ref=f3e1]:
+  - generic [ref=f3e96]:
+    - navigation [ref=f3e97]:
+      - generic [ref=f3e98]: Control de Estacionamiento
+      - generic [ref=f3e102]:
+        - button "Registrar" [ref=f3e103] [cursor=pointer]
+        - button "Dentro 3" [ref=f3e199] [cursor=pointer]:
+          - generic [ref=f3e113]: Dentro
+          - generic [ref=f3e114]: "3"
+        - button "Frecuentes" [active] [ref=f3e115] [cursor=pointer]
+        - button "Historial" [ref=f3e120] [cursor=pointer]
+        - button "Usuarios" [ref=f3e124] [cursor=pointer]
+      - button "Contraer" [ref=f3e132] [cursor=pointer]
+    - generic [ref=f3e137]:
+      - banner [ref=f3e138]:
+        - generic [ref=f3e139]: Luis Medina
+        - generic [ref=f3e142]:
+          - generic [ref=f3e143]:
+            - generic [ref=f3e144]: 14:49:45
+            - button "Ver recorrido guiado" [ref=f3e149] [cursor=pointer]
+            - button "Cambiar a tema oscuro" [ref=f3e153] [cursor=pointer]
+          - button "Cerrar turno" [ref=f3e156] [cursor=pointer]
+      - main [ref=f3e160]:
+        - generic [ref=f3e200]:
+          - generic [ref=f3e201]:
+            - generic [ref=f3e202]: Frecuentes
+            - generic [ref=f3e203]: 1 placa
+          - textbox "Buscar por placa" [ref=f3e205]
+          - generic [ref=f3e207]:
+            - generic [ref=f3e208]:
+              - generic [ref=f3e209]:
+                - generic [ref=f3e215]: FREQ01
+                - generic [ref=f3e216]: Auto
+              - generic [ref=f3e217]: 3 visitas
+            - generic [ref=f3e220]: "Última vez: 26 ago · 14:49"
+            - generic [ref=f3e221]: "nombre: Test Uno"
+  - button "Open Next.js Dev Tools" [ref=f3e92] [cursor=pointer]
+  - alert [ref=f3e191]

@@ -1,0 +1,50 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e91]:
+    - navigation [ref=f1e92]:
+      - generic [ref=f1e93]: Control de Estacionamiento
+      - generic [ref=f1e97]:
+        - button "Registrar" [ref=f1e98] [cursor=pointer]
+        - button "Dentro 1" [ref=f1e102] [cursor=pointer]:
+          - generic [ref=f1e108]: Dentro
+          - generic [ref=f1e109]: "1"
+        - button "Historial" [ref=f1e110] [cursor=pointer]
+        - button "Usuarios" [ref=f1e114] [cursor=pointer]
+        - button "Admin" [ref=f1e122] [cursor=pointer]
+      - button "Contraer" [ref=f1e128] [cursor=pointer]
+    - generic [ref=f1e133]:
+      - banner [ref=f1e134]:
+        - generic [ref=f1e135]: Carlos Ruiz
+        - generic [ref=f1e138]:
+          - generic [ref=f1e139]:
+            - generic [ref=f1e140]: 14:33:19
+            - button "Ver recorrido guiado" [ref=f1e145] [cursor=pointer]
+            - button "Cambiar a tema oscuro" [ref=f1e149] [cursor=pointer]
+          - button "Cerrar turno" [ref=f1e152] [cursor=pointer]
+      - main [ref=f1e156]:
+        - generic [ref=f1e182]:
+          - generic [ref=f1e183]:
+            - button "Operadores" [ref=f1e184] [cursor=pointer]
+            - button "Campos de registro" [active] [ref=f1e185] [cursor=pointer]
+          - generic [ref=f1e243]:
+            - generic [ref=f1e244]:
+              - generic [ref=f1e245]: Formulario de registrar entrada
+              - generic [ref=f1e246]: Arrastrá cualquier campo para reordenarlo. Los fijos (placa, tipo) no se pueden eliminar, pero sí mover de lugar.
+            - generic [ref=f1e247]:
+              - generic [ref=f1e248]:
+                - generic [ref=f1e257]:
+                  - generic [ref=f1e258]: nombre
+                  - generic [ref=f1e259]: nombre · Texto
+                - button "Eliminar campo" [ref=f1e260] [cursor=pointer]
+              - generic [ref=f1e264]:
+                - generic [ref=f1e269]:
+                  - generic [ref=f1e270]: Placa
+                  - generic [ref=f1e271]: Texto libre
+                - generic [ref=f1e272]: Fijo
+              - generic [ref=f1e273]:
+                - generic [ref=f1e278]:
+                  - generic [ref=f1e279]: Tipo de vehículo
+                  - generic [ref=f1e280]: Auto / Moto
+                - generic [ref=f1e281]: Fijo
+              - button "Agregar campo" [ref=f1e282] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f1e87] [cursor=pointer]
+  - alert [ref=f1e181]

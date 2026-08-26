@@ -17,6 +17,15 @@ import { OperatorsService } from '../operators/operators.service';
 import { CreateParkingRecordDto } from './dto/create-parking-record.dto';
 import { QueryHistoryDto } from './dto/query-history.dto';
 import { ParkingRecord } from './entities/parking-record.entity';
+import { FrequentPlate } from './interfaces/frequent-plate.interface';
+
+interface FrequentPlateRow {
+  placa: string;
+  tipo: FrequentPlate['tipo'];
+  entradaTime: Date;
+  extraFields: Record<string, unknown> | null;
+  visitCount: string;
+}
 
 @Injectable()
 export class ParkingRecordsService {
@@ -87,7 +96,10 @@ export class ParkingRecordsService {
     const result: Record<string, unknown> = {};
 
     for (const field of fieldDefinitions) {
-      if (field.isSystem) continue;
+      // Only placa/tipo have a dedicated column on ParkingRecord (handled
+      // directly in createEntrada) — every other field, including locked
+      // "isSystem" ones like nombre/dni, is still stored in extraFields.
+      if (field.key === 'placa' || field.key === 'tipo') continue;
 
       const value = input[field.key];
       const isEmpty = value === undefined || value === null || value === '';
@@ -169,6 +181,47 @@ export class ParkingRecordsService {
     } catch (error) {
       this.logger.error('Error al obtener el historial', this.stack(error));
       throw new InternalServerErrorException('No se pudo obtener el historial');
+    }
+  }
+
+  // Una patente es "frecuente" a partir de su segundo registro. Trae, por
+  // patente, la cantidad total de visitas y los datos de la más reciente
+  // (tipo/extraFields) para poder precargar el formulario de entrada.
+  async findFrequent(): Promise<FrequentPlate[]> {
+    try {
+      const rows = await this.parkingRecordsRepository.query<
+        FrequentPlateRow[]
+      >(`
+        SELECT placa, tipo, "entradaTime", "extraFields", "visitCount"
+        FROM (
+          SELECT DISTINCT ON (placa)
+            placa,
+            tipo,
+            "entradaTime",
+            "extraFields",
+            COUNT(*) OVER (PARTITION BY placa) AS "visitCount"
+          FROM parking_records
+          ORDER BY placa, "entradaTime" DESC
+        ) latest
+        WHERE "visitCount" >= 2
+        ORDER BY "visitCount" DESC, "entradaTime" DESC
+      `);
+
+      return rows.map((row) => ({
+        placa: row.placa,
+        tipo: row.tipo,
+        lastEntradaTime: row.entradaTime,
+        extraFields: row.extraFields,
+        visitCount: Number(row.visitCount),
+      }));
+    } catch (error) {
+      this.logger.error(
+        'Error al listar patentes frecuentes',
+        this.stack(error),
+      );
+      throw new InternalServerErrorException(
+        'No se pudieron obtener las patentes frecuentes',
+      );
     }
   }
 

@@ -1,0 +1,41 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e96]:
+    - navigation [ref=f3e97]:
+      - generic [ref=f3e98]: Control de Estacionamiento
+      - generic [ref=f3e102]:
+        - button "Registrar" [ref=f3e103] [cursor=pointer]
+        - button "Dentro 2" [ref=f3e107] [cursor=pointer]:
+          - generic [ref=f3e113]: Dentro
+          - generic [ref=f3e114]: "2"
+        - button "Frecuentes" [ref=f3e115] [cursor=pointer]
+        - button "Historial" [ref=f3e120] [cursor=pointer]
+        - button "Usuarios" [ref=f3e124] [cursor=pointer]
+      - button "Contraer" [ref=f3e132] [cursor=pointer]
+    - generic [ref=f3e137]:
+      - banner [ref=f3e138]:
+        - generic [ref=f3e139]: Luis Medina
+        - generic [ref=f3e142]:
+          - generic [ref=f3e143]:
+            - generic [ref=f3e144]: 14:49:15
+            - button "Ver recorrido guiado" [ref=f3e149] [cursor=pointer]
+            - button "Cambiar a tema oscuro" [ref=f3e153] [cursor=pointer]
+          - button "Cerrar turno" [ref=f3e156] [cursor=pointer]
+      - main [ref=f3e160]:
+        - generic [ref=f3e163]:
+          - generic [ref=f3e164]:
+            - generic [ref=f3e165]: Buscar frecuente (opcional)
+            - textbox "Placa ya registrada antes…" [ref=f3e169]
+          - generic [ref=f3e170]:
+            - generic [ref=f3e171]: nombre (opcional)
+            - textbox [ref=f3e172]: Test Uno
+          - generic [ref=f3e173]:
+            - generic [ref=f3e174]: Placa
+            - textbox "ABC-123" [ref=f3e175]: FREQ01
+          - generic [ref=f3e176]:
+            - generic [ref=f3e177]: Tipo de vehículo
+            - generic [ref=f3e178]:
+              - button "Auto" [ref=f3e179] [cursor=pointer]
+              - button "Moto" [ref=f3e184] [cursor=pointer]
+          - button "Registrar entrada" [ref=f3e190] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f3e92] [cursor=pointer]
+  - alert [ref=f3e191]

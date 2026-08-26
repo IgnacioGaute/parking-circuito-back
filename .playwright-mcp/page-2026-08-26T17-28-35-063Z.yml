@@ -1,0 +1,11 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - button "Cambiar a tema claro" [ref=e3] [cursor=pointer]
+    - generic [ref=e12]:
+      - generic [ref=e16]:
+        - generic [ref=e17]: Control de Estacionamiento
+        - generic [ref=e18]: Sistema activo
+      - generic [ref=e21]:
+        - generic [ref=e22]: Seleccioná tu turno
+        - generic [ref=e23]: Cargando operadores…
+  - button "Open Next.js Dev Tools" [ref=e29] [cursor=pointer]

@@ -1,0 +1,15 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - button "Cambiar a tema oscuro" [ref=f5e33] [cursor=pointer]
+    - generic [ref=f5e12]:
+      - generic [ref=f5e16]:
+        - generic [ref=f5e17]: Control de Estacionamiento
+        - generic [ref=f5e18]: Sistema activo
+      - generic [ref=f5e96]:
+        - generic [ref=f5e100]:
+          - generic [ref=f5e101]: Turno iniciado
+          - generic [ref=f5e102]: Ana Torres · acceso concedido
+        - link "Continuar" [ref=f5e103] [cursor=pointer]:
+          - /url: /
+  - button "Open Next.js Dev Tools" [ref=f5e29] [cursor=pointer]
+  - alert [ref=f5e65]

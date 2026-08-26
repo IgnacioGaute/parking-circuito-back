@@ -1,10 +1,19 @@
-import { Body, Controller, Get, Param, Patch, Post, Query } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Get,
+  Param,
+  Patch,
+  Post,
+  Query,
+} from '@nestjs/common';
 import { CurrentOperator } from '../auth/decorators/current-operator.decorator';
 import type { AuthenticatedOperator } from '../auth/strategies/jwt.strategy';
 import { CreateParkingRecordDto } from './dto/create-parking-record.dto';
 import { QueryHistoryDto } from './dto/query-history.dto';
 import { QueryInsideDto } from './dto/query-inside.dto';
 import { ParkingRecord } from './entities/parking-record.entity';
+import { FrequentPlate } from './interfaces/frequent-plate.interface';
 import { ParkingRecordsService } from './parking-records.service';
 
 @Controller('parking-records')
@@ -27,6 +36,11 @@ export class ParkingRecordsController {
   @Get('history')
   findHistory(@Query() query: QueryHistoryDto): Promise<ParkingRecord[]> {
     return this.parkingRecordsService.findHistory(query);
+  }
+
+  @Get('frequent')
+  findFrequent(): Promise<FrequentPlate[]> {
+    return this.parkingRecordsService.findFrequent();
   }
 
   @Patch(':id/exit')

@@ -1,0 +1,117 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e96]:
+    - navigation [ref=f7e97]:
+      - generic [ref=f7e98]: Control de Estacionamiento
+      - generic [ref=f7e102]:
+        - button "Registrar" [ref=f7e103] [cursor=pointer]
+        - button "Dentro 2" [ref=f7e202] [cursor=pointer]:
+          - generic [ref=f7e113]: Dentro
+          - generic [ref=f7e114]: "2"
+        - button "Frecuentes" [ref=f7e115] [cursor=pointer]
+        - button "Historial" [active] [ref=f7e120] [cursor=pointer]
+        - button "Usuarios" [ref=f7e124] [cursor=pointer]
+      - button "Contraer" [ref=f7e132] [cursor=pointer]
+    - generic [ref=f7e137]:
+      - banner [ref=f7e138]:
+        - generic [ref=f7e139]: Ana Torres
+        - generic [ref=f7e142]:
+          - generic [ref=f7e143]:
+            - generic [ref=f7e144]: 15:04:10
+            - button "Ver recorrido guiado" [ref=f7e149] [cursor=pointer]
+            - button "Cambiar a tema oscuro" [ref=f7e153] [cursor=pointer]
+          - button "Cerrar turno" [ref=f7e156] [cursor=pointer]
+      - main [ref=f7e160]:
+        - generic [ref=f7e203]:
+          - generic [ref=f7e204]: Historial
+          - generic [ref=f7e205]:
+            - textbox "Buscar por placa" [ref=f7e207]
+            - combobox [ref=f7e209] [cursor=pointer]:
+              - option "Todos los tipos" [selected]
+              - option "Auto"
+              - option "Moto"
+            - button "Filtrar por fecha y horario" [ref=f7e210] [cursor=pointer]
+          - generic [ref=f7e212]:
+            - generic [ref=f7e213]:
+              - generic [ref=f7e214]:
+                - generic [ref=f7e215]:
+                  - generic [ref=f7e216]: Hoy
+                  - generic [ref=f7e217]: 3 registros
+                - button "Descargar PDF del Hoy" [ref=f7e218] [cursor=pointer]: PDF
+              - generic [ref=f7e223]:
+                - generic [ref=f7e224]:
+                  - generic [ref=f7e225]: FREQ01
+                  - generic [ref=f7e232]: Luis Medina
+                - generic [ref=f7e233]:
+                  - generic [ref=f7e234]: 14:44 – 14:50
+                  - generic [ref=f7e235]: 6m
+                - generic [ref=f7e236]: "Nombre y apellido: Test Uno"
+              - generic [ref=f7e238]:
+                - generic [ref=f7e239]:
+                  - generic [ref=f7e240]: FREQ01
+                  - generic [ref=f7e247]: Luis Medina
+                - generic [ref=f7e248]:
+                  - generic [ref=f7e249]: 14:49 – 14:50
+                  - generic [ref=f7e250]: 1m
+                - generic [ref=f7e251]: "Nombre y apellido: Test Uno"
+              - generic [ref=f7e253]:
+                - generic [ref=f7e254]:
+                  - generic [ref=f7e255]: FREQ01
+                  - generic [ref=f7e262]: Luis Medina
+                - generic [ref=f7e263]:
+                  - generic [ref=f7e264]: 14:44 – 14:44
+                  - generic [ref=f7e265]: 0m
+                - generic [ref=f7e266]: "Nombre y apellido: Test Uno"
+            - generic [ref=f7e268]:
+              - generic [ref=f7e269]:
+                - generic [ref=f7e270]:
+                  - generic [ref=f7e271]: Viernes, 07 ago
+                  - generic [ref=f7e272]: 1 registro
+                - button "Descargar PDF del Viernes, 07 ago" [ref=f7e273] [cursor=pointer]: PDF
+              - generic [ref=f7e278]:
+                - generic [ref=f7e279]:
+                  - generic [ref=f7e280]: JJDJ
+                  - generic [ref=f7e287]: ignacio
+                - generic [ref=f7e288]:
+                  - generic [ref=f7e289]: 18:44 – 12:08
+                  - generic [ref=f7e290]: 185h 24m
+                - generic [ref=f7e291]: "Nombre y apellido: nacho"
+            - generic [ref=f7e293]:
+              - generic [ref=f7e294]:
+                - generic [ref=f7e295]:
+                  - generic [ref=f7e296]: Jueves, 30 jul
+                  - generic [ref=f7e297]: 4 registros
+                - button "Descargar PDF del Jueves, 30 jul" [ref=f7e298] [cursor=pointer]: PDF
+              - generic [ref=f7e303]:
+                - generic [ref=f7e304]:
+                  - generic [ref=f7e305]: JDJJ
+                  - generic [ref=f7e313]: ignacio
+                - generic [ref=f7e314]:
+                  - generic [ref=f7e315]: 18:43 – 18:44
+                  - generic [ref=f7e316]: 0m
+                - generic [ref=f7e317]: "Nombre y apellido: juan"
+              - generic [ref=f7e319]:
+                - generic [ref=f7e320]:
+                  - generic [ref=f7e321]: JSJ34
+                  - generic [ref=f7e329]: ignacio
+                - generic [ref=f7e330]:
+                  - generic [ref=f7e331]: 18:08 – 18:08
+                  - generic [ref=f7e332]: 0m
+                - generic [ref=f7e333]: "Nombre y apellido: nacho"
+              - generic [ref=f7e335]:
+                - generic [ref=f7e336]:
+                  - generic [ref=f7e337]: WERWE
+                  - generic [ref=f7e344]: ignacio
+                - generic [ref=f7e345]:
+                  - generic [ref=f7e346]: 15:36 – 18:04
+                  - generic [ref=f7e347]: 2h 28m
+                - generic [ref=f7e348]: "DNI: 234234"
+              - generic [ref=f7e350]:
+                - generic [ref=f7e351]:
+                  - generic [ref=f7e352]: TEST01
+                  - generic [ref=f7e359]: Luis Medina
+                - generic [ref=f7e360]:
+                  - generic [ref=f7e361]: 16:45 – 16:45
+                  - generic [ref=f7e362]: 0m
+            - button "Cargar 8 más (28 restantes)" [ref=f7e363] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f7e92] [cursor=pointer]
+  - alert [ref=f7e194]

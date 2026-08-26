@@ -1,0 +1,44 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e96]:
+    - navigation [ref=f7e97]:
+      - generic [ref=f7e98]: Control de Estacionamiento
+      - generic [ref=f7e102]:
+        - button "Registrar" [ref=f7e103] [cursor=pointer]
+        - button "Dentro 1" [ref=f7e107] [cursor=pointer]:
+          - generic [ref=f7e113]: Dentro
+          - generic [ref=f7e114]: "1"
+        - button "Frecuentes" [ref=f7e115] [cursor=pointer]
+        - button "Historial" [ref=f7e120] [cursor=pointer]
+        - button "Usuarios" [ref=f7e124] [cursor=pointer]
+      - button "Contraer" [ref=f7e132] [cursor=pointer]
+    - generic [ref=f7e137]:
+      - banner [ref=f7e138]:
+        - generic [ref=f7e139]: Ana Torres
+        - generic [ref=f7e142]:
+          - generic [ref=f7e143]:
+            - generic [ref=f7e144]: 15:03:32
+            - button "Ver recorrido guiado" [ref=f7e149] [cursor=pointer]
+            - button "Cambiar a tema oscuro" [ref=f7e153] [cursor=pointer]
+          - button "Cerrar turno" [ref=f7e156] [cursor=pointer]
+      - main [ref=f7e160]:
+        - generic [ref=f7e163]:
+          - generic [ref=f7e164]:
+            - generic [ref=f7e165]: Buscar frecuente (opcional)
+            - textbox "Placa ya registrada antes…" [ref=f7e169]
+          - generic [ref=f7e170]:
+            - generic [ref=f7e171]: Nombre y apellido
+            - textbox [ref=f7e172]
+          - generic [ref=f7e173]:
+            - generic [ref=f7e174]: Placa
+            - textbox "ABC-123" [ref=f7e175]: TESTREQ
+          - generic [ref=f7e176]:
+            - generic [ref=f7e177]: Tipo de vehículo
+            - generic [ref=f7e178]:
+              - button "Auto" [active] [ref=f7e179] [cursor=pointer]
+              - button "Moto" [ref=f7e184] [cursor=pointer]
+          - generic [ref=f7e190]:
+            - generic [ref=f7e191]: DNI
+            - spinbutton [ref=f7e192]
+          - button "Registrar entrada" [disabled] [ref=f7e193]
+  - button "Open Next.js Dev Tools" [ref=f7e92] [cursor=pointer]
+  - alert [ref=f7e194]

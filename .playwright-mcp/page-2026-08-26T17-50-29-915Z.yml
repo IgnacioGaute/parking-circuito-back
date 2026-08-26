@@ -1,0 +1,32 @@
+- generic [active] [ref=f4e1]:
+  - button "Open Next.js Dev Tools" [ref=f4e92] [cursor=pointer]
+  - alert [ref=f4e191]
+  - generic [ref=f4e192]:
+    - button "Cambiar a tema oscuro" [ref=f4e193] [cursor=pointer]
+    - generic [ref=f4e198]:
+      - generic [ref=f4e202]:
+        - generic [ref=f4e203]: Control de Estacionamiento
+        - generic [ref=f4e204]: Sistema activo
+      - generic [ref=f4e207]:
+        - generic [ref=f4e208]: Seleccioná tu turno
+        - generic [ref=f4e209]:
+          - button "AT Ana Torres Operador" [ref=f4e210] [cursor=pointer]:
+            - generic [ref=f4e211]: AT
+            - generic [ref=f4e212]:
+              - generic [ref=f4e213]: Ana Torres
+              - generic [ref=f4e214]: Operador
+          - button "CR Carlos Ruiz Admin" [ref=f4e217] [cursor=pointer]:
+            - generic [ref=f4e218]: CR
+            - generic [ref=f4e219]:
+              - generic [ref=f4e220]: Carlos Ruiz
+              - generic [ref=f4e221]: Admin
+          - button "LM Luis Medina Operador" [ref=f4e224] [cursor=pointer]:
+            - generic [ref=f4e225]: LM
+            - generic [ref=f4e226]:
+              - generic [ref=f4e227]: Luis Medina
+              - generic [ref=f4e228]: Operador
+          - button "I ignacio Admin" [ref=f4e231] [cursor=pointer]:
+            - generic [ref=f4e232]: I
+            - generic [ref=f4e233]:
+              - generic [ref=f4e234]: ignacio
+              - generic [ref=f4e235]: Admin

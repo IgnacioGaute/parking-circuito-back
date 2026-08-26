@@ -1,0 +1,27 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - button "Cambiar a tema oscuro" [ref=f5e33] [cursor=pointer]
+    - generic [ref=f5e12]:
+      - generic [ref=f5e16]:
+        - generic [ref=f5e17]: Control de Estacionamiento
+        - generic [ref=f5e18]: Sistema activo
+      - generic [ref=f5e66]:
+        - button "Cambiar turno" [ref=f5e67] [cursor=pointer]
+        - generic [ref=f5e70]:
+          - generic [ref=f5e71]: AT
+          - generic [ref=f5e72]: Ana Torres
+        - generic [ref=f5e73]: "PIN de prueba: 1234"
+        - generic [ref=f5e80]:
+          - button "1" [ref=f5e81] [cursor=pointer]
+          - button "2" [active] [ref=f5e82] [cursor=pointer]
+          - button "3" [ref=f5e83] [cursor=pointer]
+          - button "4" [ref=f5e84] [cursor=pointer]
+          - button "5" [ref=f5e85] [cursor=pointer]
+          - button "6" [ref=f5e86] [cursor=pointer]
+          - button "7" [ref=f5e87] [cursor=pointer]
+          - button "8" [ref=f5e88] [cursor=pointer]
+          - button "9" [ref=f5e89] [cursor=pointer]
+          - button "0" [ref=f5e90] [cursor=pointer]
+          - button [ref=f5e91] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f5e29] [cursor=pointer]
+  - alert [ref=f5e65]

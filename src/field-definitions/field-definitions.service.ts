@@ -111,6 +111,33 @@ export class FieldDefinitionsService {
     return this.fieldDefinitionsRepository.count({ where: { isSystem: true } });
   }
 
+  async findByKey(key: string): Promise<FieldDefinition | null> {
+    return this.fieldDefinitionsRepository.findOne({ where: { key } });
+  }
+
+  // Not exposed through the DTO/controller — isSystem is an internal
+  // concept (used by the startup seed to lock down required fields like
+  // nombre/DNI), not something an admin should be able to grant via the API.
+  async promoteToSystem(
+    id: string,
+    spec: {
+      label: string;
+      type: FieldType;
+      required: boolean;
+      options?: string[] | null;
+    },
+  ): Promise<FieldDefinition> {
+    const field = await this.findOne(id);
+    field.label = spec.label;
+    field.type = spec.type;
+    field.required = spec.required;
+    field.options =
+      spec.type === FieldType.SELECT ? (spec.options ?? null) : null;
+    field.active = true;
+    field.isSystem = true;
+    return this.fieldDefinitionsRepository.save(field);
+  }
+
   async update(
     id: string,
     dto: UpdateFieldDefinitionDto,

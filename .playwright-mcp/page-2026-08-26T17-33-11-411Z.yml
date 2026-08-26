@@ -1,0 +1,61 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e91]:
+    - navigation [ref=f1e92]:
+      - generic [ref=f1e93]: Control de Estacionamiento
+      - generic [ref=f1e97]:
+        - button "Registrar" [ref=f1e98] [cursor=pointer]
+        - button "Dentro 1" [ref=f1e102] [cursor=pointer]:
+          - generic [ref=f1e108]: Dentro
+          - generic [ref=f1e109]: "1"
+        - button "Historial" [ref=f1e110] [cursor=pointer]
+        - button "Usuarios" [ref=f1e114] [cursor=pointer]
+        - button "Admin" [active] [ref=f1e122] [cursor=pointer]
+      - button "Contraer" [ref=f1e128] [cursor=pointer]
+    - generic [ref=f1e133]:
+      - banner [ref=f1e134]:
+        - generic [ref=f1e135]: Carlos Ruiz
+        - generic [ref=f1e138]:
+          - generic [ref=f1e139]:
+            - generic [ref=f1e140]: 14:33:11
+            - button "Ver recorrido guiado" [ref=f1e145] [cursor=pointer]
+            - button "Cambiar a tema oscuro" [ref=f1e149] [cursor=pointer]
+          - button "Cerrar turno" [ref=f1e152] [cursor=pointer]
+      - main [ref=f1e156]:
+        - generic [ref=f1e182]:
+          - generic [ref=f1e183]:
+            - button "Operadores" [ref=f1e184] [cursor=pointer]
+            - button "Campos de registro" [ref=f1e185] [cursor=pointer]
+          - generic [ref=f1e186]:
+            - button "Crear operador" [ref=f1e187] [cursor=pointer]
+            - generic [ref=f1e189]: Operadores
+            - generic [ref=f1e190]:
+              - generic [ref=f1e191]:
+                - generic [ref=f1e192]: AT
+                - generic [ref=f1e193]:
+                  - generic [ref=f1e194]: Ana Torres
+                  - generic [ref=f1e195]: Operador
+                - button "Editar operador" [ref=f1e196] [cursor=pointer]
+                - button "Eliminar operador" [ref=f1e200] [cursor=pointer]
+              - generic [ref=f1e204]:
+                - generic [ref=f1e205]: CR
+                - generic [ref=f1e206]:
+                  - generic [ref=f1e207]: Carlos Ruiz (vos)
+                  - generic [ref=f1e208]: Administrador
+                - button "Editar operador" [ref=f1e209] [cursor=pointer]
+                - button "Eliminar operador" [ref=f1e213] [cursor=pointer]
+              - generic [ref=f1e217]:
+                - generic [ref=f1e218]: LM
+                - generic [ref=f1e219]:
+                  - generic [ref=f1e220]: Luis Medina
+                  - generic [ref=f1e221]: Operador
+                - button "Editar operador" [ref=f1e222] [cursor=pointer]
+                - button "Eliminar operador" [ref=f1e226] [cursor=pointer]
+              - generic [ref=f1e230]:
+                - generic [ref=f1e231]: I
+                - generic [ref=f1e232]:
+                  - generic [ref=f1e233]: ignacio
+                  - generic [ref=f1e234]: Administrador
+                - button "Editar operador" [ref=f1e235] [cursor=pointer]
+                - button "Eliminar operador" [ref=f1e239] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f1e87] [cursor=pointer]
+  - alert [ref=f1e181]
