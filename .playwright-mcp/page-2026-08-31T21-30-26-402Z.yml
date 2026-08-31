@@ -1,0 +1,122 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e104]:
+    - navigation [ref=f7e105]:
+      - generic [ref=f7e106]: Control de Estacionamiento
+      - generic [ref=f7e110]:
+        - button "Registrar" [ref=f7e111] [cursor=pointer]
+        - button "Dentro 2" [ref=f7e115] [cursor=pointer]:
+          - generic [ref=f7e121]: Dentro
+          - generic [ref=f7e122]: "2"
+        - button "Frecuentes" [ref=f7e123] [cursor=pointer]
+        - button "Historial" [active] [ref=f7e128] [cursor=pointer]
+        - button "Usuarios" [ref=f7e132] [cursor=pointer]
+      - button "Contraer" [ref=f7e140] [cursor=pointer]
+    - generic [ref=f7e145]:
+      - banner [ref=f7e146]:
+        - generic [ref=f7e147]: Luis Medina
+        - generic [ref=f7e150]:
+          - generic [ref=f7e151]:
+            - generic [ref=f7e152]: 18:30:26
+            - button "Ver recorrido guiado" [ref=f7e157] [cursor=pointer]
+            - button "Cambiar a tema oscuro" [ref=f7e161] [cursor=pointer]
+          - button "Cerrar turno" [ref=f7e164] [cursor=pointer]
+      - main [ref=f7e168]:
+        - generic [ref=f7e219]:
+          - generic [ref=f7e220]: Historial
+          - generic [ref=f7e221]:
+            - textbox "Buscar por placa" [ref=f7e223]
+            - combobox [ref=f7e225] [cursor=pointer]:
+              - option "Todos los tipos" [selected]
+              - option "Auto"
+              - option "Moto"
+            - button "Filtrar por fecha y horario" [ref=f7e226] [cursor=pointer]
+          - generic [ref=f7e228]:
+            - generic [ref=f7e229]:
+              - generic [ref=f7e230]:
+                - generic [ref=f7e231]:
+                  - generic [ref=f7e232]: Hoy
+                  - generic [ref=f7e233]: 8 registros
+                - button "Descargar PDF del Hoy" [ref=f7e234] [cursor=pointer]: PDF
+              - generic [ref=f7e239]:
+                - generic [ref=f7e240]:
+                  - generic [ref=f7e241]: EDT005
+                  - generic [ref=f7e248]: Luis Medina → Carlos Ruiz
+                - generic [ref=f7e249]:
+                  - generic [ref=f7e250]: 18:16 – 18:29
+                  - generic [ref=f7e251]: 13m
+                - generic [ref=f7e252]:
+                  - generic [ref=f7e253]: "Nombre y apellido: Reopen Test"
+                  - generic [ref=f7e254]: "DNI: 55555555"
+              - generic [ref=f7e255]:
+                - generic [ref=f7e256]:
+                  - generic [ref=f7e257]: EDT001B
+                  - generic [ref=f7e264]: Luis Medina → Carlos Ruiz
+                - generic [ref=f7e265]:
+                  - generic [ref=f7e266]: 18:16 – 18:18
+                  - generic [ref=f7e267]: 2m
+                - generic [ref=f7e268]:
+                  - generic [ref=f7e269]: "Nombre y apellido: Edit Test"
+                  - generic [ref=f7e270]: "DNI: 11111111"
+              - generic [ref=f7e271]:
+                - generic [ref=f7e272]:
+                  - generic [ref=f7e273]: EDT006
+                  - generic [ref=f7e280]: Luis Medina → Carlos Ruiz
+                - generic [ref=f7e281]:
+                  - generic [ref=f7e282]: 18:16 – 18:18
+                  - generic [ref=f7e283]: 2m
+                - generic [ref=f7e284]:
+                  - generic [ref=f7e285]: "Nombre y apellido: Dup Test"
+                  - generic [ref=f7e286]: "DNI: 66666666"
+              - generic [ref=f7e287]:
+                - generic [ref=f7e288]:
+                  - generic [ref=f7e289]: EDT006
+                  - generic [ref=f7e296]: Luis Medina
+                - generic [ref=f7e297]:
+                  - generic [ref=f7e298]: 18:16 – 18:16
+                  - generic [ref=f7e299]: 0m
+                - generic [ref=f7e300]:
+                  - generic [ref=f7e301]: "Nombre y apellido: Dup Test 2"
+                  - generic [ref=f7e302]: "DNI: 66666667"
+              - generic [ref=f7e303]:
+                - generic [ref=f7e304]:
+                  - generic [ref=f7e305]: EDT003B
+                  - generic [ref=f7e312]: Luis Medina
+                - generic [ref=f7e313]:
+                  - generic [ref=f7e314]: 18:16 – 18:16
+                  - generic [ref=f7e315]: 0m
+                - generic [ref=f7e316]:
+                  - generic [ref=f7e317]: "Nombre y apellido: Close Test"
+                  - generic [ref=f7e318]: "DNI: 33333333"
+              - generic [ref=f7e319]:
+                - generic [ref=f7e320]:
+                  - generic [ref=f7e321]: MARKME1
+                  - generic [ref=f7e328]: Carlos Ruiz
+                - generic [ref=f7e329]:
+                  - generic [ref=f7e330]: 17:59 – 17:59
+                  - generic [ref=f7e331]: 0m
+                - generic [ref=f7e332]:
+                  - generic [ref=f7e333]: "Nombre y apellido: Test Uno"
+                  - generic [ref=f7e334]: "DNI: 40555666"
+              - generic [ref=f7e335]:
+                - generic [ref=f7e336]:
+                  - generic [ref=f7e337]: MARKME1
+                  - generic [ref=f7e344]: Carlos Ruiz
+                - generic [ref=f7e345]:
+                  - generic [ref=f7e346]: 17:58 – 17:58
+                  - generic [ref=f7e347]: 0m
+                - generic [ref=f7e348]:
+                  - generic [ref=f7e349]: "Nombre y apellido: Test Uno"
+                  - generic [ref=f7e350]: "DNI: 40555666"
+              - generic [ref=f7e351]:
+                - generic [ref=f7e352]:
+                  - generic [ref=f7e353]: MARKME1
+                  - generic [ref=f7e360]: Carlos Ruiz
+                - generic [ref=f7e361]:
+                  - generic [ref=f7e362]: 17:47 – 17:47
+                  - generic [ref=f7e363]: 1m
+                - generic [ref=f7e364]:
+                  - generic [ref=f7e365]: "Nombre y apellido: Test Uno"
+                  - generic [ref=f7e366]: "DNI: 40555666"
+            - button "Cargar 8 más (42 restantes)" [ref=f7e367] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f7e100] [cursor=pointer]
+  - alert [ref=f7e218]

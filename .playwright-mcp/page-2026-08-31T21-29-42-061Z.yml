@@ -1,0 +1,27 @@
+- generic [active] [ref=f6e1]:
+  - button "Open Next.js Dev Tools" [ref=f6e100] [cursor=pointer]
+  - alert [ref=f6e224]
+  - generic [ref=f6e225]:
+    - button "Cambiar a tema oscuro" [ref=f6e226] [cursor=pointer]
+    - generic [ref=f6e231]:
+      - generic [ref=f6e235]:
+        - generic [ref=f6e236]: Control de Estacionamiento
+        - generic [ref=f6e237]: Sistema activo
+      - generic [ref=f6e271]:
+        - button "Cambiar turno" [ref=f6e272] [cursor=pointer]
+        - generic [ref=f6e275]:
+          - generic [ref=f6e276]: LM
+          - generic [ref=f6e277]: Luis Medina
+        - generic [ref=f6e278]: "PIN de prueba: 1234"
+        - generic [ref=f6e285]:
+          - button "1" [ref=f6e286] [cursor=pointer]
+          - button "2" [ref=f6e287] [cursor=pointer]
+          - button "3" [ref=f6e288] [cursor=pointer]
+          - button "4" [ref=f6e289] [cursor=pointer]
+          - button "5" [ref=f6e290] [cursor=pointer]
+          - button "6" [ref=f6e291] [cursor=pointer]
+          - button "7" [ref=f6e292] [cursor=pointer]
+          - button "8" [ref=f6e293] [cursor=pointer]
+          - button "9" [ref=f6e294] [cursor=pointer]
+          - button "0" [ref=f6e295] [cursor=pointer]
+          - button [ref=f6e296] [cursor=pointer]

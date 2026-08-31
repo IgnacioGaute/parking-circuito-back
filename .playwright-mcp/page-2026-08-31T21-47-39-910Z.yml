@@ -1,0 +1,118 @@
+- generic [ref=f9e1]:
+  - generic [ref=f9e104]:
+    - navigation [ref=f9e105]:
+      - generic [ref=f9e106]: Control de Estacionamiento
+      - generic [ref=f9e110]:
+        - button "Registrar" [ref=f9e111] [cursor=pointer]
+        - button "Dentro 2" [ref=f9e115] [cursor=pointer]:
+          - generic [ref=f9e121]: Dentro
+          - generic [ref=f9e122]: "2"
+        - button "Frecuentes" [ref=f9e123] [cursor=pointer]
+        - button "Historial" [ref=f9e128] [cursor=pointer]
+        - button "Usuarios" [ref=f9e132] [cursor=pointer]
+      - button "Contraer" [ref=f9e140] [cursor=pointer]
+    - generic [ref=f9e145]:
+      - banner [ref=f9e146]:
+        - generic [ref=f9e147]: Luis Medina
+        - generic [ref=f9e150]:
+          - generic [ref=f9e151]:
+            - generic [ref=f9e152]: 18:47:39
+            - button "Ver recorrido guiado" [ref=f9e157] [cursor=pointer]
+            - button "Cambiar a tema oscuro" [ref=f9e161] [cursor=pointer]
+          - button "Cerrar turno" [ref=f9e164] [cursor=pointer]
+      - main [ref=f9e168]:
+        - generic [ref=f9e219]:
+          - generic [ref=f9e220]:
+            - generic [ref=f9e221]: Frecuentes
+            - generic [ref=f9e222]: 6 placas
+          - textbox "Buscar por placa" [ref=f9e224]
+          - generic [ref=f9e225]:
+            - generic [ref=f9e226]:
+              - generic [ref=f9e227]:
+                - generic [ref=f9e228]:
+                  - generic [ref=f9e234]: AD920HV
+                  - generic [ref=f9e235]: Auto
+                - generic [ref=f9e236]:
+                  - generic [ref=f9e237]: 3 visitas
+                  - button "Editar patente" [ref=f9e240] [cursor=pointer]
+              - generic [ref=f9e244]: "Última vez: 31 ago · 18:00"
+              - generic [ref=f9e245]:
+                - generic [ref=f9e246]: "Nombre y apellido: nacho gaute"
+                - generic [ref=f9e247]: "DNI: 44404686"
+              - button "Ocultar movimientos" [active] [ref=f9e376] [cursor=pointer]
+              - generic [ref=f9e377]:
+                - generic [ref=f9e378]:
+                  - generic [ref=f9e379]:
+                    - generic [ref=f9e380]: 31 ago
+                    - generic [ref=f9e381]: 17:27 – 17:28
+                  - generic [ref=f9e382]: 1m
+                - generic [ref=f9e383]:
+                  - generic [ref=f9e384]:
+                    - generic [ref=f9e385]: 31 ago
+                    - generic [ref=f9e386]: 17:26 – 17:28
+                  - generic [ref=f9e387]: 1m
+            - generic [ref=f9e251]:
+              - generic [ref=f9e252]:
+                - generic [ref=f9e253]:
+                  - generic [ref=f9e259]: MARKME1
+                  - generic [ref=f9e260]: Auto
+                - generic [ref=f9e261]:
+                  - generic [ref=f9e262]: 3 visitas
+                  - button "Editar patente" [ref=f9e265] [cursor=pointer]
+              - generic [ref=f9e269]: "Última vez: 31 ago · 17:59"
+              - generic [ref=f9e270]:
+                - generic [ref=f9e271]: "Nombre y apellido: Test Uno"
+                - generic [ref=f9e272]: "DNI: 40555666"
+              - button "Ver movimientos" [ref=f9e273] [cursor=pointer]
+            - generic [ref=f9e276]:
+              - generic [ref=f9e277]:
+                - generic [ref=f9e278]:
+                  - generic [ref=f9e284]: FREQ01
+                  - generic [ref=f9e285]: Auto
+                - generic [ref=f9e286]:
+                  - generic [ref=f9e287]: 3 visitas
+                  - button "Editar patente" [ref=f9e290] [cursor=pointer]
+              - generic [ref=f9e294]: "Última vez: 26 ago · 14:49"
+              - generic [ref=f9e295]: "Nombre y apellido: Test Uno"
+              - button "Ver movimientos" [ref=f9e297] [cursor=pointer]
+            - generic [ref=f9e300]:
+              - generic [ref=f9e301]:
+                - generic [ref=f9e302]:
+                  - generic [ref=f9e308]: EDT006
+                  - generic [ref=f9e309]: Auto
+                - generic [ref=f9e310]:
+                  - generic [ref=f9e311]: 2 visitas
+                  - button "Editar patente" [ref=f9e314] [cursor=pointer]
+              - generic [ref=f9e318]: "Última vez: 31 ago · 18:16"
+              - generic [ref=f9e319]:
+                - generic [ref=f9e320]: "Nombre y apellido: Dup Test 2"
+                - generic [ref=f9e321]: "DNI: 66666667"
+              - button "Ver movimientos" [ref=f9e322] [cursor=pointer]
+            - generic [ref=f9e325]:
+              - generic [ref=f9e326]:
+                - generic [ref=f9e327]:
+                  - generic [ref=f9e333]: DUPTEST
+                  - generic [ref=f9e334]: Auto
+                - generic [ref=f9e335]:
+                  - generic [ref=f9e336]: 2 visitas
+                  - button "Editar patente" [ref=f9e339] [cursor=pointer]
+              - generic [ref=f9e343]: "Última vez: 31 ago · 17:30"
+              - generic [ref=f9e344]:
+                - generic [ref=f9e345]: "Nombre y apellido: Cuatro Test"
+                - generic [ref=f9e346]: "DNI: 44444444"
+              - button "Ver movimientos" [ref=f9e347] [cursor=pointer]
+            - generic [ref=f9e350]:
+              - generic [ref=f9e351]:
+                - generic [ref=f9e352]:
+                  - generic [ref=f9e359]: A232NTM
+                  - generic [ref=f9e360]: Moto
+                - generic [ref=f9e361]:
+                  - generic [ref=f9e362]: 1 visitas
+                  - button "Editar patente" [ref=f9e365] [cursor=pointer]
+              - generic [ref=f9e369]: "Última vez: 31 ago · 17:54"
+              - generic [ref=f9e370]:
+                - generic [ref=f9e371]: "Nombre y apellido: tomas gaute"
+                - generic [ref=f9e372]: "DNI: 44404686"
+              - button "Ver movimientos" [ref=f9e373] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f9e100] [cursor=pointer]
+  - alert [ref=f9e218]

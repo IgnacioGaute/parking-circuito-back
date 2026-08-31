@@ -1,0 +1,15 @@
+- generic [active] [ref=f6e1]:
+  - button "Open Next.js Dev Tools" [ref=f6e100] [cursor=pointer]
+  - alert [ref=f6e224]
+  - generic [ref=f6e225]:
+    - button "Cambiar a tema oscuro" [ref=f6e226] [cursor=pointer]
+    - generic [ref=f6e231]:
+      - generic [ref=f6e235]:
+        - generic [ref=f6e236]: Control de Estacionamiento
+        - generic [ref=f6e237]: Sistema activo
+      - generic [ref=f6e301]:
+        - generic [ref=f6e305]:
+          - generic [ref=f6e306]: Turno iniciado
+          - generic [ref=f6e307]: Luis Medina · acceso concedido
+        - link "Continuar" [ref=f6e308] [cursor=pointer]:
+          - /url: /

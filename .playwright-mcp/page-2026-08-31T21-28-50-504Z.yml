@@ -1,0 +1,65 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e104]:
+    - navigation [ref=f5e105]:
+      - generic [ref=f5e106]: Control de Estacionamiento
+      - generic [ref=f5e110]:
+        - button "Registrar" [ref=f5e111] [cursor=pointer]
+        - button "Dentro 3" [active] [ref=f5e661] [cursor=pointer]:
+          - generic [ref=f5e121]: Dentro
+          - generic [ref=f5e662]: "3"
+        - button "Frecuentes" [ref=f5e123] [cursor=pointer]
+        - button "Historial" [ref=f5e128] [cursor=pointer]
+        - button "Usuarios" [ref=f5e132] [cursor=pointer]
+        - button "Admin" [ref=f5e140] [cursor=pointer]
+      - button "Contraer" [ref=f5e146] [cursor=pointer]
+    - generic [ref=f5e151]:
+      - banner [ref=f5e152]:
+        - generic [ref=f5e153]: Carlos Ruiz
+        - generic [ref=f5e156]:
+          - generic [ref=f5e157]:
+            - generic [ref=f5e158]: 18:28:49
+            - button "Ver recorrido guiado" [ref=f5e163] [cursor=pointer]
+            - button "Cambiar a tema oscuro" [ref=f5e167] [cursor=pointer]
+          - button "Cerrar turno" [ref=f5e170] [cursor=pointer]
+      - main [ref=f5e174]:
+        - generic [ref=f5e663]:
+          - generic [ref=f5e664]:
+            - generic [ref=f5e665]: Dentro
+            - generic [ref=f5e666]: 3 vehículos
+          - textbox "Buscar por placa" [ref=f5e668]
+          - generic [ref=f5e669]:
+            - generic [ref=f5e670]:
+              - generic [ref=f5e671]:
+                - generic [ref=f5e672]: EDT005
+                - generic [ref=f5e679]: OK
+              - generic [ref=f5e680]:
+                - generic [ref=f5e681]: Entró 18:16
+                - generic [ref=f5e682]: 12m
+              - generic [ref=f5e683]:
+                - button "Registrar salida" [ref=f5e684] [cursor=pointer]
+                - button "Editar registro" [ref=f5e685] [cursor=pointer]
+                - button "Cancelar registro" [ref=f5e689] [cursor=pointer]
+            - generic [ref=f5e693]:
+              - generic [ref=f5e694]:
+                - generic [ref=f5e695]: AD920HV
+                - generic [ref=f5e702]: OK
+              - generic [ref=f5e703]:
+                - generic [ref=f5e704]: Entró 18:00
+                - generic [ref=f5e705]: 28m
+              - generic [ref=f5e706]:
+                - button "Registrar salida" [ref=f5e707] [cursor=pointer]
+                - button "Editar registro" [ref=f5e708] [cursor=pointer]
+                - button "Cancelar registro" [ref=f5e712] [cursor=pointer]
+            - generic [ref=f5e716]:
+              - generic [ref=f5e717]:
+                - generic [ref=f5e718]: A232NTM
+                - generic [ref=f5e726]: OK
+              - generic [ref=f5e727]:
+                - generic [ref=f5e728]: Entró 17:54
+                - generic [ref=f5e729]: 34m
+              - generic [ref=f5e730]:
+                - button "Registrar salida" [ref=f5e731] [cursor=pointer]
+                - button "Editar registro" [ref=f5e732] [cursor=pointer]
+                - button "Cancelar registro" [ref=f5e736] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f5e100] [cursor=pointer]
+  - alert [ref=f5e224]

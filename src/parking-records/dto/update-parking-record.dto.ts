@@ -1,5 +1,4 @@
 import {
-  IsBoolean,
   IsEnum,
   IsNotEmpty,
   IsObject,
@@ -8,23 +7,17 @@ import {
 } from 'class-validator';
 import { VehicleType } from '../enums/vehicle-type.enum';
 
-export class CreateParkingRecordDto {
-  @IsString()
-  @IsNotEmpty()
-  placa!: string;
-
-  @IsEnum(VehicleType)
-  tipo!: VehicleType;
-
+export class UpdateParkingRecordDto {
   @IsOptional()
   @IsString()
-  fotoUrl?: string;
+  @IsNotEmpty()
+  placa?: string;
+
+  @IsOptional()
+  @IsEnum(VehicleType)
+  tipo?: VehicleType;
 
   @IsOptional()
   @IsObject()
   extraFields?: Record<string, unknown>;
-
-  @IsOptional()
-  @IsBoolean()
-  markedFrequent?: boolean;
 }

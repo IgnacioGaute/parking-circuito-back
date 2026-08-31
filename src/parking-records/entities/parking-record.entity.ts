@@ -34,6 +34,11 @@ export class ParkingRecord {
   @Column({ type: 'jsonb', nullable: true })
   extraFields!: Record<string, unknown> | null;
 
+  // Lets an operator flag a plate as frequent from its very first visit,
+  // instead of waiting for the automatic 2-visit threshold (findFrequent()).
+  @Column({ default: false })
+  markedFrequent!: boolean;
+
   @ManyToOne(() => Operator, (operator) => operator.entradasRegistradas, {
     eager: true,
     nullable: false,
@@ -47,6 +52,30 @@ export class ParkingRecord {
   })
   @JoinColumn({ name: 'operadorSalidaId' })
   operadorSalida!: Operator | null;
+
+  // "Last corrected by/when" — not a full change history. Corrections
+  // (edit/cancel/reopen) are how human data-entry errors get fixed.
+  @Column({ type: 'timestamptz', nullable: true })
+  editedAt!: Date | null;
+
+  @ManyToOne(() => Operator, { eager: true, nullable: true })
+  @JoinColumn({ name: 'editedById' })
+  editedBy!: Operator | null;
+
+  // Soft delete, same reasoning as FieldDefinition.active: a record created
+  // by mistake is never hard-deleted, just hidden from every normal view.
+  @Column({ default: false })
+  cancelled!: boolean;
+
+  @Column({ type: 'timestamptz', nullable: true })
+  cancelledAt!: Date | null;
+
+  @ManyToOne(() => Operator, { eager: true, nullable: true })
+  @JoinColumn({ name: 'cancelledById' })
+  cancelledBy!: Operator | null;
+
+  @Column({ type: 'varchar', nullable: true })
+  cancelReason!: string | null;
 
   @CreateDateColumn()
   createdAt!: Date;

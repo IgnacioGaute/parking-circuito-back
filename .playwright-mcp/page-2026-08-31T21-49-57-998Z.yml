@@ -1,0 +1,27 @@
+- generic [ref=f10e1]:
+  - button "Open Next.js Dev Tools" [ref=f10e100] [cursor=pointer]
+  - alert [ref=f10e218]
+  - generic [ref=f10e428]:
+    - button "Cambiar a tema oscuro" [ref=f10e429] [cursor=pointer]
+    - generic [ref=f10e434]:
+      - generic [ref=f10e438]:
+        - generic [ref=f10e439]: Control de Estacionamiento
+        - generic [ref=f10e440]: Sistema activo
+      - generic [ref=f10e474]:
+        - button "Cambiar turno" [ref=f10e475] [cursor=pointer]
+        - generic [ref=f10e478]:
+          - generic [ref=f10e479]: CR
+          - generic [ref=f10e480]: Carlos Ruiz
+        - generic [ref=f10e481]: "PIN de prueba: 1234"
+        - generic [ref=f10e488]:
+          - button "1" [ref=f10e489] [cursor=pointer]
+          - button "2" [active] [ref=f10e490] [cursor=pointer]
+          - button "3" [ref=f10e491] [cursor=pointer]
+          - button "4" [ref=f10e492] [cursor=pointer]
+          - button "5" [ref=f10e493] [cursor=pointer]
+          - button "6" [ref=f10e494] [cursor=pointer]
+          - button "7" [ref=f10e495] [cursor=pointer]
+          - button "8" [ref=f10e496] [cursor=pointer]
+          - button "9" [ref=f10e497] [cursor=pointer]
+          - button "0" [ref=f10e498] [cursor=pointer]
+          - button [ref=f10e499] [cursor=pointer]

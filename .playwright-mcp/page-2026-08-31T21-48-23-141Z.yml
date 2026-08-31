@@ -1,0 +1,37 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e2]:
+    - banner [ref=f10e3]:
+      - generic [ref=f10e4]:
+        - generic [ref=f10e5]: Control de Estacionamiento
+        - generic [ref=f10e9]:
+          - generic [ref=f10e10]: "--:--:--"
+          - button "Ver recorrido guiado" [ref=f10e15] [cursor=pointer]
+          - button "Cambiar a tema claro" [ref=f10e19] [cursor=pointer]
+      - generic [ref=f10e26]:
+        - generic [ref=f10e27]: —
+        - button "Cerrar turno" [ref=f10e30] [cursor=pointer]
+    - generic [ref=f10e34]:
+      - navigation [ref=f10e35]:
+        - generic [ref=f10e36]:
+          - button "Registrar" [ref=f10e37] [cursor=pointer]
+          - button "Dentro" [ref=f10e41] [cursor=pointer]
+          - button "Frecuentes" [ref=f10e48] [cursor=pointer]
+          - button "Historial" [ref=f10e53] [cursor=pointer]
+          - button "Usuarios" [ref=f10e57] [cursor=pointer]
+      - main [ref=f10e65]:
+        - generic [ref=f10e68]:
+          - generic [ref=f10e69]:
+            - generic [ref=f10e70]: Placa
+            - textbox "ABC-123" [ref=f10e71]
+          - generic [ref=f10e72]:
+            - generic [ref=f10e73]: Tipo de vehículo
+            - generic [ref=f10e74]:
+              - button "Auto" [ref=f10e75] [cursor=pointer]
+              - button "Moto" [ref=f10e80] [cursor=pointer]
+          - generic [ref=f10e86]:
+            - button "Marcar como frecuente" [ref=f10e87] [cursor=pointer]
+            - generic [ref=f10e89]:
+              - generic [ref=f10e90]: Marcar como frecuente
+              - generic [ref=f10e93]: Va a aparecer en "Frecuentes" aunque sea su primera vez.
+          - button "Registrar entrada" [disabled] [ref=f10e94]
+  - button "Open Next.js Dev Tools" [ref=f10e100] [cursor=pointer]

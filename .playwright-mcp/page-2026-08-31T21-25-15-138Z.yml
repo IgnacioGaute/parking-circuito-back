@@ -1,0 +1,54 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e104]:
+    - navigation [ref=f4e105]:
+      - generic [ref=f4e106]: Control de Estacionamiento
+      - generic [ref=f4e110]:
+        - button "Registrar" [ref=f4e111] [cursor=pointer]
+        - button "Dentro 2" [ref=f4e115] [cursor=pointer]:
+          - generic [ref=f4e121]: Dentro
+          - generic [ref=f4e225]: "2"
+        - button "Frecuentes" [ref=f4e123] [cursor=pointer]
+        - button "Historial" [ref=f4e128] [cursor=pointer]
+        - button "Usuarios" [ref=f4e132] [cursor=pointer]
+        - button "Admin" [ref=f4e140] [cursor=pointer]
+      - button "Contraer" [ref=f4e146] [cursor=pointer]
+    - generic [ref=f4e151]:
+      - banner [ref=f4e152]:
+        - generic [ref=f4e153]: Carlos Ruiz
+        - generic [ref=f4e156]:
+          - generic [ref=f4e157]:
+            - generic [ref=f4e158]: 18:25:14
+            - button "Ver recorrido guiado" [ref=f4e163] [cursor=pointer]
+            - button "Cambiar a tema oscuro" [ref=f4e167] [cursor=pointer]
+          - button "Cerrar turno" [ref=f4e170] [cursor=pointer]
+      - main [ref=f4e174]:
+        - generic [ref=f4e281]:
+          - generic [ref=f4e282]:
+            - generic [ref=f4e287]:
+              - generic [ref=f4e288]: ¿Es un vehículo frecuente?
+              - generic [ref=f4e289]: Buscá por placa o por nombre para ver sus datos.
+            - textbox "Placa o nombre…" [ref=f4e291]
+          - generic [ref=f4e292]: o completá a mano
+          - generic [ref=f4e296]:
+            - generic [ref=f4e297]: Nombre y apellido
+            - textbox [ref=f4e298]: UI Test
+          - generic [ref=f4e299]:
+            - generic [ref=f4e300]: Placa
+            - textbox "ABC-123" [ref=f4e301]: UITEST1
+          - generic [ref=f4e302]:
+            - generic [ref=f4e303]: Tipo de vehículo
+            - generic [ref=f4e304]:
+              - button "Auto" [ref=f4e305] [cursor=pointer]
+              - button "Moto" [ref=f4e310] [cursor=pointer]
+          - generic [ref=f4e316]:
+            - generic [ref=f4e317]: DNI
+            - spinbutton [ref=f4e318]: "99900011"
+          - generic [ref=f4e319]:
+            - button "Marcar como frecuente" [ref=f4e320] [cursor=pointer]
+            - generic [ref=f4e322]:
+              - generic [ref=f4e323]: Marcar como frecuente
+              - generic [ref=f4e326]: Va a aparecer en "Frecuentes" aunque sea su primera vez.
+          - generic [ref=f4e328]: No se pudo registrar la entrada
+          - button "Registrar entrada" [ref=f4e327] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f4e100] [cursor=pointer]
+  - alert [ref=f4e224]

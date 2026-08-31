@@ -1,0 +1,53 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e104]:
+    - navigation [ref=f8e105]:
+      - generic [ref=f8e106]: Control de Estacionamiento
+      - generic [ref=f8e110]:
+        - button "Registrar" [ref=f8e111] [cursor=pointer]
+        - button "Dentro 2" [active] [ref=f8e115] [cursor=pointer]:
+          - generic [ref=f8e121]: Dentro
+          - generic [ref=f8e219]: "2"
+        - button "Frecuentes" [ref=f8e123] [cursor=pointer]
+        - button "Historial" [ref=f8e128] [cursor=pointer]
+        - button "Usuarios" [ref=f8e132] [cursor=pointer]
+      - button "Contraer" [ref=f8e140] [cursor=pointer]
+    - generic [ref=f8e145]:
+      - banner [ref=f8e146]:
+        - generic [ref=f8e147]: Luis Medina
+        - generic [ref=f8e150]:
+          - generic [ref=f8e151]:
+            - generic [ref=f8e152]: 18:37:28
+            - button "Ver recorrido guiado" [ref=f8e157] [cursor=pointer]
+            - button "Cambiar a tema oscuro" [ref=f8e161] [cursor=pointer]
+          - button "Cerrar turno" [ref=f8e164] [cursor=pointer]
+      - main [ref=f8e168]:
+        - generic [ref=f8e220]:
+          - generic [ref=f8e221]:
+            - generic [ref=f8e222]: Dentro
+            - generic [ref=f8e223]: 2 vehículos
+          - textbox "Buscar por placa" [ref=f8e225]
+          - generic [ref=f8e226]:
+            - generic [ref=f8e227]:
+              - generic [ref=f8e228]:
+                - generic [ref=f8e229]: AD920HV
+                - generic [ref=f8e236]: OK
+              - generic [ref=f8e237]:
+                - generic [ref=f8e238]: Entró 18:00
+                - generic [ref=f8e239]: 37m
+              - generic [ref=f8e240]:
+                - button "Registrar salida" [ref=f8e241] [cursor=pointer]
+                - generic "Patente frecuente — editala desde Frecuentes" [ref=f8e242]
+                - button "Cancelar registro" [ref=f8e245] [cursor=pointer]
+            - generic [ref=f8e249]:
+              - generic [ref=f8e250]:
+                - generic [ref=f8e251]: A232NTM
+                - generic [ref=f8e259]: OK
+              - generic [ref=f8e260]:
+                - generic [ref=f8e261]: Entró 17:54
+                - generic [ref=f8e262]: 42m
+              - generic [ref=f8e263]:
+                - button "Registrar salida" [ref=f8e264] [cursor=pointer]
+                - generic "Patente frecuente — editala desde Frecuentes" [ref=f8e265]
+                - button "Cancelar registro" [ref=f8e268] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f8e100] [cursor=pointer]
+  - alert [ref=f8e218]

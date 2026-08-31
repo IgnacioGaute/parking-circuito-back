@@ -1,0 +1,70 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e105]:
+    - navigation [ref=f1e106]:
+      - generic [ref=f1e107]: Control de Estacionamiento
+      - generic [ref=f1e111]:
+        - button "Registrar" [ref=f1e112] [cursor=pointer]
+        - button "Dentro 1" [ref=f1e256] [cursor=pointer]:
+          - generic [ref=f1e122]: Dentro
+          - generic [ref=f1e257]: "1"
+        - button "Frecuentes" [active] [ref=f1e123] [cursor=pointer]
+        - button "Historial" [ref=f1e128] [cursor=pointer]
+        - button "Usuarios" [ref=f1e132] [cursor=pointer]
+        - button "Admin" [ref=f1e140] [cursor=pointer]
+      - button "Contraer" [ref=f1e146] [cursor=pointer]
+    - generic [ref=f1e151]:
+      - banner [ref=f1e152]:
+        - generic [ref=f1e153]: Carlos Ruiz
+        - generic [ref=f1e156]:
+          - generic [ref=f1e157]:
+            - generic [ref=f1e158]: 17:47:14
+            - button "Ver recorrido guiado" [ref=f1e163] [cursor=pointer]
+            - button "Cambiar a tema oscuro" [ref=f1e167] [cursor=pointer]
+          - button "Cerrar turno" [ref=f1e170] [cursor=pointer]
+      - main [ref=f1e174]:
+        - generic [ref=f1e258]:
+          - generic [ref=f1e259]:
+            - generic [ref=f1e260]: Frecuentes
+            - generic [ref=f1e261]: 4 placas
+          - textbox "Buscar por placa" [ref=f1e263]
+          - generic [ref=f1e264]:
+            - generic [ref=f1e265]:
+              - generic [ref=f1e266]:
+                - generic [ref=f1e267]:
+                  - generic [ref=f1e273]: FREQ01
+                  - generic [ref=f1e274]: Auto
+                - generic [ref=f1e275]: 3 visitas
+              - generic [ref=f1e278]: "Última vez: 26 ago · 14:49"
+              - generic [ref=f1e279]: "Nombre y apellido: Test Uno"
+            - generic [ref=f1e281]:
+              - generic [ref=f1e282]:
+                - generic [ref=f1e283]:
+                  - generic [ref=f1e289]: DUPTEST
+                  - generic [ref=f1e290]: Auto
+                - generic [ref=f1e291]: 2 visitas
+              - generic [ref=f1e294]: "Última vez: 31 ago · 17:30"
+              - generic [ref=f1e295]:
+                - generic [ref=f1e296]: "Nombre y apellido: Cuatro Test"
+                - generic [ref=f1e297]: "DNI: 44444444"
+            - generic [ref=f1e298]:
+              - generic [ref=f1e299]:
+                - generic [ref=f1e300]:
+                  - generic [ref=f1e306]: AD920HV
+                  - generic [ref=f1e307]: Auto
+                - generic [ref=f1e308]: 2 visitas
+              - generic [ref=f1e311]: "Última vez: 31 ago · 17:27"
+              - generic [ref=f1e312]:
+                - generic [ref=f1e313]: "Nombre y apellido: nacho gaute"
+                - generic [ref=f1e314]: "DNI: 44404686"
+            - generic [ref=f1e315]:
+              - generic [ref=f1e316]:
+                - generic [ref=f1e317]:
+                  - generic [ref=f1e323]: MARKME1
+                  - generic [ref=f1e324]: Auto
+                - generic [ref=f1e325]: 1 visitas
+              - generic [ref=f1e328]: "Última vez: 31 ago · 17:47"
+              - generic [ref=f1e329]:
+                - generic [ref=f1e330]: "Nombre y apellido: Test Uno"
+                - generic [ref=f1e331]: "DNI: 40555666"
+  - button "Open Next.js Dev Tools" [ref=f1e101] [cursor=pointer]
+  - alert [ref=f1e225]

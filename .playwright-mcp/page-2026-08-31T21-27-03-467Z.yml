@@ -1,0 +1,67 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - generic [ref=f5e104]:
+      - navigation [ref=f5e105]:
+        - generic [ref=f5e106]: Control de Estacionamiento
+        - generic [ref=f5e110]:
+          - button "Registrar" [ref=f5e111] [cursor=pointer]
+          - button "Dentro 3" [ref=f5e115] [cursor=pointer]:
+            - generic [ref=f5e121]: Dentro
+            - generic [ref=f5e225]: "3"
+          - button "Frecuentes" [ref=f5e123] [cursor=pointer]
+          - button "Historial" [ref=f5e128] [cursor=pointer]
+          - button "Usuarios" [ref=f5e132] [cursor=pointer]
+          - button "Admin" [ref=f5e140] [cursor=pointer]
+        - button "Contraer" [ref=f5e146] [cursor=pointer]
+      - generic [ref=f5e151]:
+        - banner [ref=f5e152]:
+          - generic [ref=f5e153]: Carlos Ruiz
+          - generic [ref=f5e156]:
+            - generic [ref=f5e157]:
+              - generic [ref=f5e158]: 18:27:02
+              - button "Ver recorrido guiado" [ref=f5e163] [cursor=pointer]
+              - button "Cambiar a tema oscuro" [ref=f5e167] [cursor=pointer]
+            - button "Cerrar turno" [ref=f5e170] [cursor=pointer]
+        - main [ref=f5e174]:
+          - generic [ref=f5e226]:
+            - generic [ref=f5e227]:
+              - generic [ref=f5e228]: Dentro
+              - generic [ref=f5e229]: 3 vehículos
+            - textbox "Buscar por placa" [ref=f5e231]
+            - generic [ref=f5e232]:
+              - generic [ref=f5e233]:
+                - generic [ref=f5e234]:
+                  - generic [ref=f5e235]: UITEST1B
+                  - generic [ref=f5e242]: OK
+                - generic [ref=f5e243]:
+                  - generic [ref=f5e244]: Entró 18:25
+                  - generic [ref=f5e245]: 1m
+                - generic [ref=f5e246]:
+                  - button "Registrar salida" [ref=f5e247] [cursor=pointer]
+                  - button "Editar registro" [ref=f5e248] [cursor=pointer]
+                  - button "Cancelar registro" [ref=f5e252] [cursor=pointer]
+              - generic [ref=f5e256]:
+                - generic [ref=f5e257]:
+                  - generic [ref=f5e258]: AD920HV
+                  - generic [ref=f5e265]: OK
+                - generic [ref=f5e266]:
+                  - generic [ref=f5e267]: Entró 18:00
+                  - generic [ref=f5e268]: 26m
+                - generic [ref=f5e269]:
+                  - button "Registrar salida" [ref=f5e270] [cursor=pointer]
+                  - button "Editar registro" [ref=f5e271] [cursor=pointer]
+                  - button "Cancelar registro" [ref=f5e275] [cursor=pointer]
+              - generic [ref=f5e279]:
+                - generic [ref=f5e280]:
+                  - generic [ref=f5e281]: A232NTM
+                  - generic [ref=f5e289]: OK
+                - generic [ref=f5e290]:
+                  - generic [ref=f5e291]: Entró 17:54
+                  - generic [ref=f5e292]: 32m
+                - generic [ref=f5e293]:
+                  - button "Registrar salida" [ref=f5e294] [cursor=pointer]
+                  - button "Editar registro" [ref=f5e295] [cursor=pointer]
+                  - button "Cancelar registro" [ref=f5e299] [cursor=pointer]
+    - generic [ref=f5e337]: Registro actualizado
+  - button "Open Next.js Dev Tools" [ref=f5e100] [cursor=pointer]
+  - alert [ref=f5e224]
