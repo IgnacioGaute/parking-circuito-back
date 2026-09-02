@@ -9,6 +9,7 @@ import { typeOrmConfig } from './config/typeorm.config';
 import { FieldDefinitionsModule } from './field-definitions/field-definitions.module';
 import { OperatorsModule } from './operators/operators.module';
 import { ParkingRecordsModule } from './parking-records/parking-records.module';
+import { SettingsModule } from './settings/settings.module';
 
 @Module({
   imports: [
@@ -22,6 +23,7 @@ import { ParkingRecordsModule } from './parking-records/parking-records.module';
     OperatorsModule,
     ParkingRecordsModule,
     FieldDefinitionsModule,
+    SettingsModule,
   ],
   controllers: [],
   providers: [

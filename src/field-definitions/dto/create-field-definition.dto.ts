@@ -14,7 +14,8 @@ import { FieldType } from '../enums/field-type.enum';
 export class CreateFieldDefinitionDto {
   @IsString()
   @Matches(/^[a-z][a-z0-9_]*$/, {
-    message: 'key debe ser minúscula, empezar con letra y usar solo letras, números o guión bajo',
+    message:
+      'key debe ser minúscula, empezar con letra y usar solo letras, números o guión bajo',
   })
   key!: string;
 

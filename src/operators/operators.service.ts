@@ -26,7 +26,9 @@ export class OperatorsService {
       return await this.operatorsRepository.find({ order: { name: 'ASC' } });
     } catch (error) {
       this.logger.error('Error al listar operadores', this.stack(error));
-      throw new InternalServerErrorException('No se pudieron obtener los operadores');
+      throw new InternalServerErrorException(
+        'No se pudieron obtener los operadores',
+      );
     }
   }
 
@@ -103,11 +105,19 @@ export class OperatorsService {
 
       return await this.operatorsRepository.save(operator);
     } catch (error) {
-      if (error instanceof NotFoundException || error instanceof BadRequestException) {
+      if (
+        error instanceof NotFoundException ||
+        error instanceof BadRequestException
+      ) {
         throw error;
       }
-      this.logger.error(`Error al actualizar operador ${id}`, this.stack(error));
-      throw new InternalServerErrorException('No se pudo actualizar el operador');
+      this.logger.error(
+        `Error al actualizar operador ${id}`,
+        this.stack(error),
+      );
+      throw new InternalServerErrorException(
+        'No se pudo actualizar el operador',
+      );
     }
   }
 
@@ -119,7 +129,10 @@ export class OperatorsService {
       }
       await this.operatorsRepository.remove(operator);
     } catch (error) {
-      if (error instanceof NotFoundException || error instanceof BadRequestException) {
+      if (
+        error instanceof NotFoundException ||
+        error instanceof BadRequestException
+      ) {
         throw error;
       }
       this.logger.error(`Error al eliminar operador ${id}`, this.stack(error));
@@ -138,7 +151,9 @@ export class OperatorsService {
         `Error al actualizar estado de turno de ${id}`,
         this.stack(error),
       );
-      throw new InternalServerErrorException('No se pudo actualizar el estado de turno');
+      throw new InternalServerErrorException(
+        'No se pudo actualizar el estado de turno',
+      );
     }
   }
 
@@ -147,7 +162,9 @@ export class OperatorsService {
       return await this.operatorsRepository.count();
     } catch (error) {
       this.logger.error('Error al contar operadores', this.stack(error));
-      throw new InternalServerErrorException('No se pudo contar los operadores');
+      throw new InternalServerErrorException(
+        'No se pudo contar los operadores',
+      );
     }
   }
 

@@ -21,6 +21,8 @@ export class OperatorsSeed implements OnApplicationBootstrap {
     for (const { name, pin, role } of SEED_OPERATORS) {
       await this.operatorsService.create(name, pin, role);
     }
-    this.logger.log(`Sembrados ${SEED_OPERATORS.length} operadores (PIN de prueba: 1234)`);
+    this.logger.log(
+      `Sembrados ${SEED_OPERATORS.length} operadores (PIN de prueba: 1234)`,
+    );
   }
 }

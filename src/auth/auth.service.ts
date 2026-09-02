@@ -24,10 +24,7 @@ export class AuthService {
 
   async login(operatorId: string, pin: string): Promise<LoginResult> {
     try {
-      const operator = await this.operatorsService.validatePin(
-        operatorId,
-        pin,
-      );
+      const operator = await this.operatorsService.validatePin(operatorId, pin);
       if (!operator) {
         throw new UnauthorizedException('PIN incorrecto');
       }

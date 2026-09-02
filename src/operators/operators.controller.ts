@@ -25,7 +25,9 @@ export class OperatorsController {
   @Get()
   async findAll(): Promise<OperatorResponseDto[]> {
     const operators = await this.operatorsService.findAll();
-    return operators.map((operator) => OperatorResponseDto.fromEntity(operator));
+    return operators.map((operator) =>
+      OperatorResponseDto.fromEntity(operator),
+    );
   }
 
   @Roles(Role.ADMIN)

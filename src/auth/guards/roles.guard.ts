@@ -1,4 +1,8 @@
-import { ExecutionContext, ForbiddenException, Injectable } from '@nestjs/common';
+import {
+  ExecutionContext,
+  ForbiddenException,
+  Injectable,
+} from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
 import { Role } from '../../common/enums/role.enum';
 import { IS_PUBLIC_KEY } from '../decorators/public.decorator';
@@ -22,9 +26,13 @@ export class RolesGuard {
     ]);
     if (!requiredRoles || requiredRoles.length === 0) return true;
 
-    const { user } = context.switchToHttp().getRequest<{ user?: AuthenticatedOperator }>();
+    const { user } = context
+      .switchToHttp()
+      .getRequest<{ user?: AuthenticatedOperator }>();
     if (!user || !requiredRoles.includes(user.role)) {
-      throw new ForbiddenException('No tenés permisos para realizar esta acción');
+      throw new ForbiddenException(
+        'No tenés permisos para realizar esta acción',
+      );
     }
     return true;
   }
